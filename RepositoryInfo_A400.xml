@@ -1,77 +1,77 @@
 <?xml version="1.0"?>
 <Repository>
-    <DistributedRepositories />
-    <Applications>
-        <Application>
-        <Name>MPD</Name>
-        <Version>v0.20.12-nmt1</Version>
-        <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/mpd_a400_v0.20.12-nmt1.zip</DownloadURL>
-        <Author>Max Kellermann</Author>
-        <Maintainer>vaidyasr</Maintainer>
-        <Description>Music Player Daemon (MPD) is a free and open source music player server. It plays audio files, organizes playlists and maintains a music database. In order to interact with it, a separate client is needed.</Description>
-        <Homepage>http://www.networkedmediatank.com/showthread.php?tid=38371</Homepage>
-        <InstallScript>Apps/AppInit/appinit.cgi?install&amp;mpd.tar</InstallScript>
-        <WebInterfaceURL></WebInterfaceURL>
-        <GayaInterfaceURL></GayaInterfaceURL>
-        <Screenshots></Screenshots>
-        <UsageInstructions>After installing, install any mpd client to connect. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
-        <Forum>http://www.networkedmediatank.com/showthread.php?tid=38371</Forum>
-        <Changelog>Released v0.18.5</Changelog>
-        </Application>
-        <Application>
-        <Name>MKVToolNix</Name>
-        <Version>v9.5.0-nmt1</Version>
-        <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/mkvtoolnix_a400_v9.5.0-nmt1.zip</DownloadURL>
-        <Author>Moritz Bunkus</Author>
-        <Maintainer>vaidyasr</Maintainer>
-        <Description>Set of tools to create, alter and inspect Matroska files</Description>
-        <Homepage>https://mkvtoolnix.download/</Homepage>
-        <InstallScript>Apps/AppInit/appinit.cgi?install&amp;mkvtoolnix.tar</InstallScript>
-        <WebInterfaceURL></WebInterfaceURL>
-        <GayaInterfaceURL></GayaInterfaceURL>
-        <Screenshots></Screenshots>
-        <UsageInstructions>After installing, use telnet to use the program. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for the interest </UsageInstructions>
-        <Forum>http://www.networkedmediatank.com/showthread.php?tid=73892</Forum>
-        <Changelog></Changelog>
-        </Application>
-        <Application>
-        <Name>webui-aria2</Name>
-        <Version>v1.0.0-nmt1</Version>
-        <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/aria2_v1.0.0-nmt1.zip</DownloadURL>
-        <Author>ziahamza</Author>
-        <Maintainer>vaidyasr</Maintainer>
-        <Description>Web Interface for aria2 Download Manager</Description>
-        <Homepage>https://github.com/ziahamza/webui-aria2</Homepage>
-        <InstallScript>Apps/AppInit/appinit.cgi?install&amp;aria2.tar</InstallScript>
-        <WebInterfaceURL>http://[NMT_IP]:9999/webui-aria2_web</WebInterfaceURL>
-        <GayaInterfaceURL></GayaInterfaceURL>
-        <Screenshots></Screenshots>
-        <UsageInstructions>After installing, browse to the web page and add links to download. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
-        <Forum>http://www.networkedmediatank.com/showthread.php?tid=71887</Forum>
-        <Changelog></Changelog>
-        </Application>
-        <Application>
-        <Name>lighttpd</Name>
-        <Version>v1.4.41-nmt2</Version>
-        <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/lighttpd_a400_v1.4.41-nmt2.zip</DownloadURL>
-        <Author>lighttpd-team</Author>
-        <Maintainer>vaidyasr</Maintainer>
-        <Description>Lighttpd is an open-source web server optimized for speed-critical environments while remaining standards-compliant, secure and flexible</Description>
-        <Homepage>http://www.lighttpd.net/</Homepage>
-        <InstallScript>Apps/AppInit/appinit.cgi?install&amp;webserver.tar</InstallScript>
-        <WebInterfaceURL></WebInterfaceURL>
-        <GayaInterfaceURL></GayaInterfaceURL>
-        <Screenshots></Screenshots>
-        <UsageInstructions>After installing, you can browse your existing apps. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
-        <Forum>http://www.networkedmediatank.com/showthread.php?tid=32596</Forum>
-        <Changelog></Changelog>
-        </Application>
-<Application>
-	<Name>NZBget</Name>
-            <Version>20.0-nmt1</Version>
-        <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/nzbget_a400_v20.0-nmt1.zip</DownloadURL>
-            <Author>Andrey Prygunkov</Author>
-            <Maintainer>vaidyasr</Maintainer>
+	<DistributedRepositories />
+	<Applications>
+		<Application>
+			<Name>MPD</Name>
+			<Version>v0.20.12-nmt1</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/mpd_a400_v0.20.12-nmt1.zip</DownloadURL>
+			<Author>Max Kellermann</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>Music Player Daemon (MPD) is a free and open source music player server. It plays audio files, organizes playlists and maintains a music database. In order to interact with it, a separate client is needed.</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=38371</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;mpd.tar</InstallScript>
+			<WebInterfaceURL></WebInterfaceURL>
+			<GayaInterfaceURL></GayaInterfaceURL>
+			<Screenshots></Screenshots>
+			<UsageInstructions>After installing, install any mpd client to connect. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
+			<Forum>http://www.networkedmediatank.com/showthread.php?tid=38371</Forum>
+			<Changelog>Released v0.18.5</Changelog>
+		</Application>
+		<Application>
+			<Name>MKVToolNix</Name>
+			<Version>v9.5.0-nmt1</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/mkvtoolnix_a400_v9.5.0-nmt1.zip</DownloadURL>
+			<Author>Moritz Bunkus</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>Set of tools to create, alter and inspect Matroska files</Description>
+			<Homepage>https://mkvtoolnix.download/</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;mkvtoolnix.tar</InstallScript>
+			<WebInterfaceURL></WebInterfaceURL>
+			<GayaInterfaceURL></GayaInterfaceURL>
+			<Screenshots></Screenshots>
+			<UsageInstructions>After installing, use telnet to use the program. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for the interest </UsageInstructions>
+			<Forum>http://www.networkedmediatank.com/showthread.php?tid=73892</Forum>
+			<Changelog></Changelog>
+		</Application>
+		<Application>
+			<Name>webui-aria2</Name>
+			<Version>v1.0.0-nmt1</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/aria2_v1.0.0-nmt1.zip</DownloadURL>
+			<Author>ziahamza</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>Web Interface for aria2 Download Manager</Description>
+			<Homepage>https://github.com/ziahamza/webui-aria2</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;aria2.tar</InstallScript>
+			<WebInterfaceURL>http://[NMT_IP]:9999/webui-aria2_web</WebInterfaceURL>
+			<GayaInterfaceURL></GayaInterfaceURL>
+			<Screenshots></Screenshots>
+			<UsageInstructions>After installing, browse to the web page and add links to download. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
+			<Forum>http://www.networkedmediatank.com/showthread.php?tid=71887</Forum>
+			<Changelog></Changelog>
+		</Application>
+		<Application>
+			<Name>lighttpd</Name>
+			<Version>v1.4.41-nmt2</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/lighttpd_a400_v1.4.41-nmt2.zip</DownloadURL>
+			<Author>lighttpd-team</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>Lighttpd is an open-source web server optimized for speed-critical environments while remaining standards-compliant, secure and flexible</Description>
+			<Homepage>http://www.lighttpd.net/</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;webserver.tar</InstallScript>
+			<WebInterfaceURL></WebInterfaceURL>
+			<GayaInterfaceURL></GayaInterfaceURL>
+			<Screenshots></Screenshots>
+			<UsageInstructions>After installing, you can browse your existing apps. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
+			<Forum>http://www.networkedmediatank.com/showthread.php?tid=32596</Forum>
+			<Changelog></Changelog>
+		</Application>
+		<Application>
+			<Name>NZBget</Name>
+			<Version>20.0-nmt1</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/nzbget_a400_v20.0-nmt1.zip</DownloadURL>
+			<Author>Andrey Prygunkov</Author>
+			<Maintainer>vaidyasr</Maintainer>
 			<Description>NZBGet is a binary newsgrabber for nzb files. It supports automatic par-check/-repair, unpack and has a web-interface. NZBGet requires low system resources and runs great on routers, NAS-devices and media players. This package contains the latest version of NZBGet (testing branch).
 			The default user name and password are nzbget/tegbzn6789</Description>
 			<Homepage>http://nzbget.sourceforge.net</Homepage>
@@ -93,362 +93,364 @@
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=73282</Forum>
 			<Changelog>http://nzbget.sourceforge.net/History_(ChangeLog)</Changelog>
 		</Application>
-        <Application>
-        <Name>php5</Name>
-        <Version>v5.6.4-nmt1</Version>
-        <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/php5_a400_v5.6.4-nmt1.zip</DownloadURL>
-        <Author>php5-team</Author>
-        <Maintainer>vaidyasr</Maintainer>
-        <Description>PHP is a popular general-purpose scripting language that is especially suited to web development.</Description>
-        <Homepage>http://php.net/</Homepage>
-        <InstallScript>Apps/AppInit/appinit.cgi?install&amp;php5.tar</InstallScript>
-        <WebInterfaceURL></WebInterfaceURL>
-        <GayaInterfaceURL></GayaInterfaceURL>
-        <Screenshots></Screenshots>
-        <UsageInstructions>This will replace your existing php5 in /nmt/apps/server directory and it is fully revertable. Use uninstall from CSI to revert back. After installing, you can browse your existing apps. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
-        <Forum>http://www.networkedmediatank.com/showthread.php?tid=72187</Forum>
-        <Changelog></Changelog>
-        </Application>
-        <Application>
-        <Name>owncloud</Name>
-        <Version>v8.0.0-nmt1</Version>
-        <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/owncloud_v8.0.0-nmt1.zip</DownloadURL>
-        <Author>owncloud-team</Author>
-        <Maintainer>vaidyasr</Maintainer>
-        <Description>ownCloud provides access to your data through a web interface or WebDAV while providing a platform to view, sync and share across devices easily—all under your control.</Description>
-        <Homepage>http://www.lighttpd.net/</Homepage>
-        <InstallScript>Apps/AppInit/appinit.cgi?install&amp;owncloud.tar</InstallScript>
-        <WebInterfaceURL>http://[NMT_IP]:9999/owncloud_web</WebInterfaceURL>
-        <GayaInterfaceURL></GayaInterfaceURL>
-        <Screenshots></Screenshots>
-        <UsageInstructions>After installing, you can browse to the above link. Login: admin, password: 1234. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
-        <Forum>http://www.networkedmediatank.com/showthread.php?tid=61578</Forum>
-        <Changelog></Changelog>
-        </Application>
-        <Application>
-        <Name>NzbDrone</Name>
-        <Version>v2.0.0.2282-nmt1</Version>
-        <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/nzbdrone_v2.0.0.2282-nmt1.zip</DownloadURL>
-        <Author>Keivan Beigi/Mark McDowall</Author>
-        <Maintainer>vaidyasr</Maintainer>
-        <Description>Smart PVR for newsgroup users.</Description>
-        <Homepage>http://www.networkedmediatank.com/showthread.php?tid=69800</Homepage>
-        <InstallScript>Apps/AppInit/appinit.cgi?install&amp;nzbdrone.tar</InstallScript>
-        <WebInterfaceURL>http://[NMT_IP]:8989/</WebInterfaceURL>
-        <GayaInterfaceURL></GayaInterfaceURL>
-        <Screenshots></Screenshots>
-        <UsageInstructions>After installing, browse to the web page and change the settings for your need. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
-        <Forum>http://www.networkedmediatank.com/showthread.php?tid=69800</Forum>
-        <Changelog>Released v2.0.0.1064</Changelog>
-        </Application>
-        <Application>
-        <Name>pyLoad</Name>
-        <Version>v0.4.9-nmt1</Version>
-        <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/pyload_v0.4.9-nmt1.zip</DownloadURL>
-        <Author>pyLoad Team</Author>
-        <Maintainer>vaidyasr</Maintainer>
-        <Description>pyLoad is a fast, lightweight and full featured download manager for many One-Click-Hoster, container formats like DLC, video sites or just plain http/ftp links.</Description>
-        <Homepage>http://www.networkedmediatank.com/showthread.php?tid=57418</Homepage>
-        <InstallScript>Apps/AppInit/appinit.cgi?install&amp;pyload.tar</InstallScript>
-        <WebInterfaceURL>http://[NMT_IP]:8000/</WebInterfaceURL>
-        <GayaInterfaceURL></GayaInterfaceURL>
-        <Screenshots>http://pyload.org/_media/webif.png</Screenshots>
-        <UsageInstructions>After installing, browse to the web page with login as nmt and password as 1234. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
-        <Forum>http://www.networkedmediatank.com/showthread.php?tid=57418</Forum>
-        <Changelog>Released v0.4.9</Changelog>
-        </Application>
-        <Application>
-        <Name>OpenSSH</Name>
-        <Version>v7.4p1-nmt1</Version>
-        <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/openssh_v7.4p1-nmt1.zip</DownloadURL>
-        <Author>OpenSSH Team</Author>
-        <Maintainer>vaidyasr</Maintainer>
-        <Description>OpenSSH is a FREE version of the SSH connectivity tools that technical users of the Internet rely on.</Description>
-        <Homepage>http://www.networkedmediatank.com/showthread.php?tid=44411</Homepage>
-        <InstallScript>Apps/AppInit/appinit.cgi?install&amp;openssh.tar</InstallScript>
-        <WebInterfaceURL></WebInterfaceURL>
-        <GayaInterfaceURL></GayaInterfaceURL>
-        <Screenshots></Screenshots>
-        <UsageInstructions>After installing, do a ssh from your favourite client (puTTY) and the password for root is 1234. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
-        <Forum>http://www.networkedmediatank.com/showthread.php?tid=44411</Forum>
-        <Changelog>Released v6.2p2-1</Changelog>
-        </Application>
-        <Application>
-        <Name>MediaTomb</Name>
-        <Version>latest-nmt1</Version>
-        <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/mediatomb_latest-nmt1.zip</DownloadURL>
-        <Author>Gena Batyan, Sergey Bostandzhyan and Leonhard Wimmer</Author>
-        <Maintainer>vaidyasr</Maintainer>
-        <Description>MediaTomb is an open source (GPL) UPnP MediaServer with a nice web user interface, it allows you to stream your digital media through your home network and listen to/watch it on a variety of UPnP compatible devices.</Description>
-        <Homepage>http://www.networkedmediatank.com/showthread.php?tid=47811</Homepage>
-        <InstallScript>Apps/AppInit/appinit.cgi?install&amp;mediatomb.tar</InstallScript>
-        <WebInterfaceURL>http://[NMT_IP]:49152/</WebInterfaceURL>
-        <GayaInterfaceURL></GayaInterfaceURL>
-        <Screenshots></Screenshots>
-        <UsageInstructions>After installing, browse the media from your TV. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
-        <Forum>http://www.networkedmediatank.com/showthread.php?tid=47811</Forum>
-        <Changelog>Released v0.12.1.</Changelog>
-        </Application>
-        <Application>
-        <Name>MiniDLNA</Name>
-        <Version>v1.1.5-nmt1</Version>
-        <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/minidlna_a400_v1.1.5-nmt1.zip</DownloadURL>
-        <Author>jmaggard</Author>
-        <Maintainer>vaidyasr</Maintainer>
-        <Description>ReadyMedia (formerly known as MiniDLNA) is a simple media server software, with the aim of being fully compliant with DLNA/UPnP-AV clients. It is developed by a NETGEAR employee for the ReadyNAS product line.</Description>
-        <Homepage>http://www.networkedmediatank.com/showthread.php?tid=43637</Homepage>
-        <InstallScript>Apps/AppInit/appinit.cgi?install&amp;minidlna.tar</InstallScript>
-        <WebInterfaceURL></WebInterfaceURL>
-        <GayaInterfaceURL></GayaInterfaceURL>
-        <Screenshots></Screenshots>
-        <UsageInstructions>After installing, browse the media from your TV. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
-        <Forum>http://www.networkedmediatank.com/showthread.php?tid=43637</Forum>
-        <Changelog>Released v1.1.1.</Changelog>
-        </Application>
-        <Application>
-        <Name>Transmission</Name>
-        <Version>v2.92-nmt3</Version>
-        <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/transmission_a400_v2.92-nmt3.zip</DownloadURL>
-        <Author>Transmission Team</Author>
-        <Maintainer>vaidyasr</Maintainer>
-        <Description>Transmission torrent client build for NMT 400 series.</Description>
-        <Homepage>http://www.networkedmediatank.com/showthread.php?tid=68993</Homepage>
-        <InstallScript>Apps/AppInit/appinit.cgi?install&amp;transmission.tar</InstallScript>
-        <WebInterfaceURL>http://[NMT_IP]:8077/transmission/web/</WebInterfaceURL>
-        <GayaInterfaceURL></GayaInterfaceURL>
-        <Screenshots>
-            <URL>http://members.tele2.nl/ger.teunis/transmission/img/WebUI.jpg</URL>
-        </Screenshots>
-        <UsageInstructions>After installing, manage transmission from PC web interface, or NMT web service. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
-        <Forum>http://www.networkedmediatank.com/showthread.php?tid=68993</Forum>
-        <Changelog> Upgraded to Transmission 2.92.  </Changelog>
-        </Application>
-        <Application>
-            <Name>debian</Name>
-            <Version>7.7-wheezy-2</Version>
-            <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/debian_v7.7-wheezy-2.zip</DownloadURL>
-            <Author>admin@lists.debian.org</Author>
-            <Maintainer>vaidyasr</Maintainer>
-            <Description>Debian is a free operating system (OS) for your computer. An operating system is the set of basic programs and utilities that make your computer run. This OS will run over your NMT under separate directory using chroot.</Description>
-            <Homepage>https://www.debian.org/ports/mips/</Homepage>
-            <InstallScript>Apps/AppInit/appinit.cgi?install&amp;debian.tar</InstallScript>
-            <WebInterfaceURL />
-            <GayaInterfaceURL></GayaInterfaceURL>
-            <Screenshots></Screenshots>
-            <UsageInstructions />
-            <Forum>http://www.networkedmediatank.com/showthread.php?tid=71877</Forum>
-            <Changelog></Changelog>
-        </Application>
-        <Application>
-            <Name>local</Name>
-            <Version>0.3.1-nmt2</Version>
-            <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/opkg_a400_v0.3.1-nmt2.zip</DownloadURL>
-            <Author>opkg-devel@googlegroups.com</Author>
-            <Maintainer>vaidyasr</Maintainer>
-            <Description>Local is the CSI package name for OPKG. Opkg is a lightweight package management system. It is written in C and resembles apt/dpkg in operation. It is intended for use on embedded Linux devices and is used in this capacity in the OpenEmbedded and OpenWrt projects.</Description>
-            <Homepage>http://code.google.com/p/opkg/</Homepage>
-            <InstallScript>Apps/AppInit/appinit.cgi?install&amp;local.tar</InstallScript>
-            <WebInterfaceURL />
-            <GayaInterfaceURL></GayaInterfaceURL>
-            <Screenshots><URL>http://www.dpembo.ukfsn.org/nslu2/ipkgweb.png</URL></Screenshots>
-            <UsageInstructions />
-            <Forum>http://www.networkedmediatank.com/showthread.php?tid=64124</Forum>
-            <Changelog></Changelog>
-        </Application>
-        <Application>
-            <Name>AjaxExplorer</Name>
-            <Version>1.10.3.2-nmt1</Version>
-            <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/ajaxexplorer_v1.10.3.2-nmt1.zip</DownloadURL>
-            <Author>smsid</Author>
-            <Maintainer>vaidyasr</Maintainer>
-            <Description>Need to handle your server files as easy as OS could? Then this is your stuff! Just upload the file to your server and unzip. Works on most browser.</Description>
-            <Homepage>http://ajaxbrowser.com/</Homepage>
-            <InstallScript>Apps/AppInit/appinit.cgi?install&amp;ajaxexplorer.tar</InstallScript>
-            <WebInterfaceURL>http://[NMT_IP]:9999/AjaxExplorer_web/</WebInterfaceURL>
-            <GayaInterfaceURL />
-            <Screenshots>
-                <URL>http://a.fsdn.com/con/app/proj/ajax-explorer/screenshots/1.jpg</URL>
-                <URL>http://a.fsdn.com/con/app/proj/ajax-explorer/screenshots/6.jpg</URL>
-                <URL>http://a.fsdn.com/con/app/proj/ajax-explorer/screenshots/5.jpg</URL>
-            </Screenshots>
-            <UsageInstructions>Username: nmt, password: Nmt@a400</UsageInstructions>
-            <Forum />
-            <Changelog />
-        </Application>
-        <Application>
-            <Name>FileManager</Name>
-            <Version>1.1.1</Version>
-            <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/fileman_v1.1.1_Beta.zip</DownloadURL>
-            <Author>vaidyasr</Author>
-            <Maintainer>vaidyasr</Maintainer>
-            <Description>A a small file manager utility which will be helpful to browse the contents of PCH including the / directory. Now the program is almost ready but still some features yet to implement.</Description>
-            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=17409</Homepage>
-            <InstallScript>Apps/AppInit/appinit.cgi?install&amp;fileman.tar</InstallScript>
-            <WebInterfaceURL>http://[NMT_IP]:9999/FileManager_web/</WebInterfaceURL>
-            <GayaInterfaceURL />
-            <Screenshots>
-                <URL>http://img398.imageshack.us/img398/24/image4i.png</URL>
-                <URL>http://img513.imageshack.us/img513/7049/image1sdc.png</URL>
-                <URL>http://img25.imageshack.us/img25/5044/image2nzv.png</URL>
-                <URL>http://img27.imageshack.us/img27/8876/image5yvx.png</URL>
-            </Screenshots>
-            <UsageInstructions>Make sure you have MyIhome enabled before using the application.</UsageInstructions>
-            <Forum />
-            <Changelog />
-        </Application>
-        <Application>
-            <Name>NMJManager</Name>
-            <Version>v2.0.0-nmt1</Version>
-            <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/nmjmanager_a400_v2.0.0-nmt1.zip</DownloadURL>
-            <Author>vaidyasr</Author>
-            <Maintainer>vaidyasr</Maintainer>
-            <Description>A server side script for NMJManager Android App.</Description>
-            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=74578</Homepage>
-            <InstallScript>Apps/AppInit/appinit.cgi?install&amp;nmjmanager.tar</InstallScript>
-            <WebInterfaceURL>http://[NMT_IP]:5678/</WebInterfaceURL>
-            <GayaInterfaceURL />
-            <Screenshots></Screenshots>
-            <UsageInstructions></UsageInstructions>
-            <Forum />
-            <Changelog />
-       </Application>
-        <Application>
-            <Name>NMJManager</Name>
-            <Version>1.0.6</Version>
-            <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/nmj_v1.0.6.zip</DownloadURL>
-            <Author>vaidyasr</Author>
-            <Maintainer>vaidyasr</Maintainer>
-            <Description>A web based editor for your NMJ Database.</Description>
-            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=46208</Homepage>
-            <InstallScript>Apps/AppInit/appinit.cgi?install&amp;nmj.tar</InstallScript>
-            <WebInterfaceURL>http://[NMT_IP]:9999/NMJManager_web/</WebInterfaceURL>
-            <GayaInterfaceURL />
-            <Screenshots>
-                <URL>http://img228.imageshack.us/img228/766/nmj.png</URL>
-                <URL>http://img155.imageshack.us/img155/5296/nmj1.png</URL>
-                <URL>http://img155.imageshack.us/img155/3076/nmj2.png</URL>
-            </Screenshots>
-            <UsageInstructions>Dependencies are imagemagick from opkg to change your poster to thumbnail.</UsageInstructions>
-            <Forum />
-            <Changelog />
-       </Application>
-        <Application>
-            <Name>OVJNavigator</Name>
-            <Version>1.0.0</Version>
-            <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/ovjnavigator_v1.0.0.zip</DownloadURL>
-            <Author>vaidyasr</Author>
-            <Maintainer>vaidyasr</Maintainer>
-            <Description>A web based viewer for your Oversight Database using your Tablet similar to NMJNavigator.</Description>
-            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=68419</Homepage>
-            <InstallScript>Apps/AppInit/appinit.cgi?install&amp;ovjnavigator.tar</InstallScript>
-            <WebInterfaceURL>http://[NMT_IP]:9999/OVJNavigator_web/</WebInterfaceURL>
-            <GayaInterfaceURL />
-            <Screenshots>
-                <URL>http://imageshack.us/a/img826/5383/tq69.png</URL>
-            </Screenshots>
-            <UsageInstructions></UsageInstructions>
-            <Forum />
-            <Changelog />
-        </Application>
-        <Application>
-            <Name>NMJManagerTablet</Name>
-            <Version>2.0.3</Version>
-            <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/nmjmanager_v2.0.3.zip</DownloadURL>
-            <Author>vaidyasr</Author>
-            <Maintainer>vaidyasr</Maintainer>
-            <Description>A web based viewer/editor for your NMJ Database using your Tablet.</Description>
-            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=67585</Homepage>
-            <InstallScript>Apps/AppInit/appinit.cgi?install&amp;nmj.tar</InstallScript>
-            <WebInterfaceURL>http://www.pchvten.com/NMJManagerTablet_web/</WebInterfaceURL>
-            <GayaInterfaceURL />
-            <Screenshots>
-                <URL>http://imageshack.us/a/img826/5383/tq69.png</URL>
-            </Screenshots>
-            <UsageInstructions></UsageInstructions>
-            <Forum />
-            <Changelog />
-        </Application>
-        <Application>
-            <Name>MKVTools</Name>
-            <Version>1.1.1</Version>
-            <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/mkvtools_v1.1.1.zip</DownloadURL>
-            <Author>vaidyasr</Author>
-            <Maintainer>vaidyasr</Maintainer>
-            <Description>A web based GUI for mkvmerge similar to mkvtoolnix</Description>
-            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=40302</Homepage>
-            <InstallScript>Apps/AppInit/appinit.cgi?install&amp;mkvtools.tar</InstallScript>
-            <WebInterfaceURL>http://[NMT_IP]:9999/MKVTools_web/</WebInterfaceURL>
-            <GayaInterfaceURL />
-            <Screenshots>
-                <URL>http://img706.imageshack.us/img706/8917/mkv1.jpg</URL>
-                <URL>http://img804.imageshack.us/img804/4681/chapters.png</URL>
-            </Screenshots>
-            <UsageInstructions>Dependencies are mkvtoolnix from opkg.</UsageInstructions>
-            <Forum />
-            <Changelog />
-       </Application>
-        <Application>
-            <Name>SYNK</Name>
-            <Version>1.0.0</Version>
-            <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/synk_v1.0.0.zip</DownloadURL>
-            <Author>vaidyasr</Author>
-            <Maintainer>vaidyasr</Maintainer>
-            <Description>The rsync GUI for your NAS/Networked Media Tank</Description>
-            <Homepage>http://www.networkedmediatank.com/showthread.php?tid=41963</Homepage>
-            <InstallScript>Apps/AppInit/appinit.cgi?install&amp;synk.tar</InstallScript>
-            <WebInterfaceURL>http://[NMT_IP]:9999/SYNK_web/</WebInterfaceURL>
-            <GayaInterfaceURL />
-            <Screenshots>
-                <URL>http://img715.imageshack.us/img715/7116/synk1.png</URL>
-                <URL>http://img684.imageshack.us/img684/1209/synk2.png</URL>
-                <URL>http://img141.imageshack.us/img141/6163/synk3.png</URL>
-                <URL>http://img833.imageshack.us/img833/6631/synk4.png</URL>
-                <URL>http://img214.imageshack.us/img214/5215/synk5.png</URL>
-            </Screenshots>
-            <UsageInstructions>Dependencies are rsync from opkg.</UsageInstructions>
-            <Forum />
-            <Changelog />
-       </Application>
-        <Application>
-        <Name>rclone</Name>
-        <Version>v1.36-nmt1</Version>
-        <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/rclone_a400_v1.36-nmt1.zip</DownloadURL>
-        <Author>Nick Craig-Wood</Author>
-        <Maintainer>vaidyasr</Maintainer>
-        <Description>Rclone is a command line program to sync/mount files and directories to and from various cloud services.</Description>
-        <Homepage>http://rclone.org/</Homepage>
-        <InstallScript>Apps/AppInit/appinit.cgi?install&amp;rclone.tar</InstallScript>
-        <WebInterfaceURL></WebInterfaceURL>
-        <GayaInterfaceURL></GayaInterfaceURL>
-        <Screenshots></Screenshots>
-        <UsageInstructions>This app requires additional configuration to mount the cloud drives. Refer the forum for more details. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
-        <Forum>http://www.networkedmediatank.com/showthread.php?tid=74321</Forum>
-        <Changelog></Changelog>
-        </Application>
-       <Application>
-            <Name>DownloadManager</Name>
-            <Version>3.2</Version>
-            <DownloadURL>http://sourceforge.net/projects/nmtcsi/files/popdown_v3.2.zip</DownloadURL>
-            <Author>vaidyasr</Author>
-            <Maintainer>vaidyasr</Maintainer>
-            <Description>Installs a a download manager for i.e. Rapidshare. and many others too</Description>
-            <Homepage>http://networkedmediatank.com/showthread.php?tid=10592&amp;page=1</Homepage>
-            <InstallScript>Apps/AppInit/appinit.cgi?install&amp;popdown.tar</InstallScript>
-            <WebInterfaceURL>http://[NMT_IP]:9999/DownloadManager_web/</WebInterfaceURL>
-            <GayaInterfaceURL />
-            <Screenshots>
-                <URL>http://img3.imageshack.us/img3/2972/image01f.png</URL>
-                <URL>http://img541.imageshack.us/img541/1990/image02.png</URL>
-                <URL>http://img826.imageshack.us/img826/7666/image03.png</URL>
-                <URL>http://img21.imageshack.us/img21/8796/image04g.png</URL>
-            </Screenshots>
-            <UsageInstructions>The dependencies for Download manager are: a)lighttpd from CSI. b)utils from CSI c)Busybox from CSI </UsageInstructions>
-            <Forum />
-            <Changelog />
-        </Application>
-    </Applications>
-    <Themes />
-    <Indexes />
-    <WaitImageSets />
-    <Webservices />
+		<Application>
+			<Name>php5</Name>
+			<Version>v5.6.4-nmt1</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/php5_a400_v5.6.4-nmt1.zip</DownloadURL>
+			<Author>php5-team</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>PHP is a popular general-purpose scripting language that is especially suited to web development.</Description>
+			<Homepage>http://php.net/</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;php5.tar</InstallScript>
+			<WebInterfaceURL></WebInterfaceURL>
+			<GayaInterfaceURL></GayaInterfaceURL>
+			<Screenshots></Screenshots>
+			<UsageInstructions>This will replace your existing php5 in /nmt/apps/server directory and it is fully revertable. Use uninstall from CSI to revert back. After installing, you can browse your existing apps. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
+			<Forum>http://www.networkedmediatank.com/showthread.php?tid=72187</Forum>
+			<Changelog></Changelog>
+		</Application>
+		<Application>
+			<Name>owncloud</Name>
+			<Version>v8.0.0-nmt1</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/owncloud_v8.0.0-nmt1.zip</DownloadURL>
+			<Author>owncloud-team</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>ownCloud provides access to your data through a web interface or WebDAV while providing a platform to view, sync and share across devices easily—all under your control.</Description>
+			<Homepage>http://www.lighttpd.net/</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;owncloud.tar</InstallScript>
+			<WebInterfaceURL>http://[NMT_IP]:9999/owncloud_web</WebInterfaceURL>
+			<GayaInterfaceURL></GayaInterfaceURL>
+			<Screenshots></Screenshots>
+			<UsageInstructions>After installing, you can browse to the above link. Login: admin, password: 1234. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
+			<Forum>http://www.networkedmediatank.com/showthread.php?tid=61578</Forum>
+			<Changelog></Changelog>
+		</Application>
+		<Application>
+			<Name>NzbDrone</Name>
+			<Version>v2.0.0.2282-nmt1</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/nzbdrone_v2.0.0.2282-nmt1.zip</DownloadURL>
+			<Author>Keivan Beigi/Mark McDowall</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>Smart PVR for newsgroup users.</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=69800</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;nzbdrone.tar</InstallScript>
+			<WebInterfaceURL>http://[NMT_IP]:8989/</WebInterfaceURL>
+			<GayaInterfaceURL></GayaInterfaceURL>
+			<Screenshots></Screenshots>
+			<UsageInstructions>After installing, browse to the web page and change the settings for your need. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
+			<Forum>http://www.networkedmediatank.com/showthread.php?tid=69800</Forum>
+			<Changelog>Released v2.0.0.1064</Changelog>
+		</Application>
+		<Application>
+			<Name>pyLoad</Name>
+			<Version>v0.4.9-nmt1</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/pyload_v0.4.9-nmt1.zip</DownloadURL>
+			<Author>pyLoad Team</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>pyLoad is a fast, lightweight and full featured download manager for many One-Click-Hoster, container formats like DLC, video sites or just plain http/ftp links.</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=57418</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;pyload.tar</InstallScript>
+			<WebInterfaceURL>http://[NMT_IP]:8000/</WebInterfaceURL>
+			<GayaInterfaceURL></GayaInterfaceURL>
+			<Screenshots>http://pyload.org/_media/webif.png</Screenshots>
+			<UsageInstructions>After installing, browse to the web page with login as nmt and password as 1234. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
+			<Forum>http://www.networkedmediatank.com/showthread.php?tid=57418</Forum>
+			<Changelog>Released v0.4.9</Changelog>
+		</Application>
+		<Application>
+			<Name>OpenSSH</Name>
+			<Version>v7.4p1-nmt1</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/openssh_v7.4p1-nmt1.zip</DownloadURL>
+			<Author>OpenSSH Team</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>OpenSSH is a FREE version of the SSH connectivity tools that technical users of the Internet rely on.</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=44411</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;openssh.tar</InstallScript>
+			<WebInterfaceURL></WebInterfaceURL>
+			<GayaInterfaceURL></GayaInterfaceURL>
+			<Screenshots></Screenshots>
+			<UsageInstructions>After installing, do a ssh from your favourite client (puTTY) and the password for root is 1234. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
+			<Forum>http://www.networkedmediatank.com/showthread.php?tid=44411</Forum>
+			<Changelog>Released v6.2p2-1</Changelog>
+		</Application>
+		<Application>
+			<Name>MediaTomb</Name>
+			<Version>latest-nmt1</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/mediatomb_latest-nmt1.zip</DownloadURL>
+			<Author>Gena Batyan, Sergey Bostandzhyan and Leonhard Wimmer</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>MediaTomb is an open source (GPL) UPnP MediaServer with a nice web user interface, it allows you to stream your digital media through your home network and listen to/watch it on a variety of UPnP compatible devices.</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=47811</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;mediatomb.tar</InstallScript>
+			<WebInterfaceURL>http://[NMT_IP]:49152/</WebInterfaceURL>
+			<GayaInterfaceURL></GayaInterfaceURL>
+			<Screenshots></Screenshots>
+			<UsageInstructions>After installing, browse the media from your TV. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
+			<Forum>http://www.networkedmediatank.com/showthread.php?tid=47811</Forum>
+			<Changelog>Released v0.12.1.</Changelog>
+		</Application>
+		<Application>
+			<Name>MiniDLNA</Name>
+			<Version>v1.1.5-nmt1</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/minidlna_a400_v1.1.5-nmt1.zip</DownloadURL>
+			<Author>jmaggard</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>ReadyMedia (formerly known as MiniDLNA) is a simple media server software, with the aim of being fully compliant with DLNA/UPnP-AV clients. It is developed by a NETGEAR employee for the ReadyNAS product line.</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=43637</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;minidlna.tar</InstallScript>
+			<WebInterfaceURL></WebInterfaceURL>
+			<GayaInterfaceURL></GayaInterfaceURL>
+			<Screenshots></Screenshots>
+			<UsageInstructions>After installing, browse the media from your TV. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
+			<Forum>http://www.networkedmediatank.com/showthread.php?tid=43637</Forum>
+			<Changelog>Released v1.1.1.</Changelog>
+		</Application>
+		<Application>
+			<Name>Transmission</Name>
+			<Version>v2.92-nmt3</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/transmission_a400_v2.92-nmt3.zip</DownloadURL>
+			<Author>Transmission Team</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>Transmission torrent client build for NMT 400 series.</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=68993</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;transmission.tar</InstallScript>
+			<WebInterfaceURL>http://[NMT_IP]:8077/transmission/web/</WebInterfaceURL>
+			<GayaInterfaceURL></GayaInterfaceURL>
+			<Screenshots>
+				<URL>http://members.tele2.nl/ger.teunis/transmission/img/WebUI.jpg</URL>
+			</Screenshots>
+			<UsageInstructions>After installing, manage transmission from PC web interface, or NMT web service. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
+			<Forum>http://www.networkedmediatank.com/showthread.php?tid=68993</Forum>
+			<Changelog> Upgraded to Transmission 2.92.  </Changelog>
+		</Application>
+		<Application>
+			<Name>debian</Name>
+			<Version>7.7-wheezy-2</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/debian_v7.7-wheezy-2.zip</DownloadURL>
+			<Author>admin@lists.debian.org</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>Debian is a free operating system (OS) for your computer. An operating system is the set of basic programs and utilities that make your computer run. This OS will run over your NMT under separate directory using chroot.</Description>
+			<Homepage>https://www.debian.org/ports/mips/</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;debian.tar</InstallScript>
+			<WebInterfaceURL />
+			<GayaInterfaceURL></GayaInterfaceURL>
+			<Screenshots></Screenshots>
+			<UsageInstructions />
+			<Forum>http://www.networkedmediatank.com/showthread.php?tid=71877</Forum>
+			<Changelog></Changelog>
+		</Application>
+		<Application>
+			<Name>local</Name>
+			<Version>0.3.1-nmt2</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/opkg_a400_v0.3.1-nmt2.zip</DownloadURL>
+			<Author>opkg-devel@googlegroups.com</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>Local is the CSI package name for OPKG. Opkg is a lightweight package management system. It is written in C and resembles apt/dpkg in operation. It is intended for use on embedded Linux devices and is used in this capacity in the OpenEmbedded and OpenWrt projects.</Description>
+			<Homepage>http://code.google.com/p/opkg/</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;local.tar</InstallScript>
+			<WebInterfaceURL />
+			<GayaInterfaceURL></GayaInterfaceURL>
+			<Screenshots>
+				<URL>http://www.dpembo.ukfsn.org/nslu2/ipkgweb.png</URL>
+			</Screenshots>
+			<UsageInstructions />
+			<Forum>http://www.networkedmediatank.com/showthread.php?tid=64124</Forum>
+			<Changelog></Changelog>
+		</Application>
+		<Application>
+			<Name>AjaxExplorer</Name>
+			<Version>1.10.3.2-nmt1</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/ajaxexplorer_v1.10.3.2-nmt1.zip</DownloadURL>
+			<Author>smsid</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>Need to handle your server files as easy as OS could? Then this is your stuff! Just upload the file to your server and unzip. Works on most browser.</Description>
+			<Homepage>http://ajaxbrowser.com/</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;ajaxexplorer.tar</InstallScript>
+			<WebInterfaceURL>http://[NMT_IP]:9999/AjaxExplorer_web/</WebInterfaceURL>
+			<GayaInterfaceURL />
+			<Screenshots>
+				<URL>http://a.fsdn.com/con/app/proj/ajax-explorer/screenshots/1.jpg</URL>
+				<URL>http://a.fsdn.com/con/app/proj/ajax-explorer/screenshots/6.jpg</URL>
+				<URL>http://a.fsdn.com/con/app/proj/ajax-explorer/screenshots/5.jpg</URL>
+			</Screenshots>
+			<UsageInstructions>Username: nmt, password: Nmt@a400</UsageInstructions>
+			<Forum />
+			<Changelog />
+		</Application>
+		<Application>
+			<Name>FileManager</Name>
+			<Version>1.1.1</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/fileman_v1.1.1_Beta.zip</DownloadURL>
+			<Author>vaidyasr</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>A a small file manager utility which will be helpful to browse the contents of PCH including the / directory. Now the program is almost ready but still some features yet to implement.</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=17409</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;fileman.tar</InstallScript>
+			<WebInterfaceURL>http://[NMT_IP]:9999/FileManager_web/</WebInterfaceURL>
+			<GayaInterfaceURL />
+			<Screenshots>
+				<URL>http://img398.imageshack.us/img398/24/image4i.png</URL>
+				<URL>http://img513.imageshack.us/img513/7049/image1sdc.png</URL>
+				<URL>http://img25.imageshack.us/img25/5044/image2nzv.png</URL>
+				<URL>http://img27.imageshack.us/img27/8876/image5yvx.png</URL>
+			</Screenshots>
+			<UsageInstructions>Make sure you have MyIhome enabled before using the application.</UsageInstructions>
+			<Forum />
+			<Changelog />
+		</Application>
+		<Application>
+			<Name>NMJManager</Name>
+			<Version>v2.0.0-nmt1</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/nmjmanager_a400_v2.0.0-nmt1.zip</DownloadURL>
+			<Author>vaidyasr</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>A server side script for NMJManager Android App.</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=74578</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;nmjmanager.tar</InstallScript>
+			<WebInterfaceURL>http://[NMT_IP]:5678/</WebInterfaceURL>
+			<GayaInterfaceURL />
+			<Screenshots></Screenshots>
+			<UsageInstructions></UsageInstructions>
+			<Forum />
+			<Changelog />
+		</Application>
+		<Application>
+			<Name>NMJManager</Name>
+			<Version>1.0.6</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/nmj_v1.0.6.zip</DownloadURL>
+			<Author>vaidyasr</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>A web based editor for your NMJ Database.</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=46208</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;nmj.tar</InstallScript>
+			<WebInterfaceURL>http://[NMT_IP]:9999/NMJManager_web/</WebInterfaceURL>
+			<GayaInterfaceURL />
+			<Screenshots>
+				<URL>http://img228.imageshack.us/img228/766/nmj.png</URL>
+				<URL>http://img155.imageshack.us/img155/5296/nmj1.png</URL>
+				<URL>http://img155.imageshack.us/img155/3076/nmj2.png</URL>
+			</Screenshots>
+			<UsageInstructions>Dependencies are imagemagick from opkg to change your poster to thumbnail.</UsageInstructions>
+			<Forum />
+			<Changelog />
+		</Application>
+		<Application>
+			<Name>OVJNavigator</Name>
+			<Version>1.0.0</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/ovjnavigator_v1.0.0.zip</DownloadURL>
+			<Author>vaidyasr</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>A web based viewer for your Oversight Database using your Tablet similar to NMJNavigator.</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=68419</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;ovjnavigator.tar</InstallScript>
+			<WebInterfaceURL>http://[NMT_IP]:9999/OVJNavigator_web/</WebInterfaceURL>
+			<GayaInterfaceURL />
+			<Screenshots>
+				<URL>http://imageshack.us/a/img826/5383/tq69.png</URL>
+			</Screenshots>
+			<UsageInstructions></UsageInstructions>
+			<Forum />
+			<Changelog />
+		</Application>
+		<Application>
+			<Name>NMJManagerTablet</Name>
+			<Version>2.0.3</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/nmjmanager_v2.0.3.zip</DownloadURL>
+			<Author>vaidyasr</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>A web based viewer/editor for your NMJ Database using your Tablet.</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=67585</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;nmj.tar</InstallScript>
+			<WebInterfaceURL>http://www.pchvten.com/NMJManagerTablet_web/</WebInterfaceURL>
+			<GayaInterfaceURL />
+			<Screenshots>
+				<URL>http://imageshack.us/a/img826/5383/tq69.png</URL>
+			</Screenshots>
+			<UsageInstructions></UsageInstructions>
+			<Forum />
+			<Changelog />
+		</Application>
+		<Application>
+			<Name>MKVTools</Name>
+			<Version>1.1.1</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/mkvtools_v1.1.1.zip</DownloadURL>
+			<Author>vaidyasr</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>A web based GUI for mkvmerge similar to mkvtoolnix</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=40302</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;mkvtools.tar</InstallScript>
+			<WebInterfaceURL>http://[NMT_IP]:9999/MKVTools_web/</WebInterfaceURL>
+			<GayaInterfaceURL />
+			<Screenshots>
+				<URL>http://img706.imageshack.us/img706/8917/mkv1.jpg</URL>
+				<URL>http://img804.imageshack.us/img804/4681/chapters.png</URL>
+			</Screenshots>
+			<UsageInstructions>Dependencies are mkvtoolnix from opkg.</UsageInstructions>
+			<Forum />
+			<Changelog />
+		</Application>
+		<Application>
+			<Name>SYNK</Name>
+			<Version>1.0.0</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/synk_v1.0.0.zip</DownloadURL>
+			<Author>vaidyasr</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>The rsync GUI for your NAS/Networked Media Tank</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=41963</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;synk.tar</InstallScript>
+			<WebInterfaceURL>http://[NMT_IP]:9999/SYNK_web/</WebInterfaceURL>
+			<GayaInterfaceURL />
+			<Screenshots>
+				<URL>http://img715.imageshack.us/img715/7116/synk1.png</URL>
+				<URL>http://img684.imageshack.us/img684/1209/synk2.png</URL>
+				<URL>http://img141.imageshack.us/img141/6163/synk3.png</URL>
+				<URL>http://img833.imageshack.us/img833/6631/synk4.png</URL>
+				<URL>http://img214.imageshack.us/img214/5215/synk5.png</URL>
+			</Screenshots>
+			<UsageInstructions>Dependencies are rsync from opkg.</UsageInstructions>
+			<Forum />
+			<Changelog />
+		</Application>
+		<Application>
+			<Name>rclone</Name>
+			<Version>v1.36-nmt1</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/rclone_a400_v1.36-nmt1.zip</DownloadURL>
+			<Author>Nick Craig-Wood</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>Rclone is a command line program to sync/mount files and directories to and from various cloud services.</Description>
+			<Homepage>http://rclone.org/</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;rclone.tar</InstallScript>
+			<WebInterfaceURL></WebInterfaceURL>
+			<GayaInterfaceURL></GayaInterfaceURL>
+			<Screenshots></Screenshots>
+			<UsageInstructions>This app requires additional configuration to mount the cloud drives. Refer the forum for more details. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
+			<Forum>http://www.networkedmediatank.com/showthread.php?tid=74321</Forum>
+			<Changelog></Changelog>
+		</Application>
+		<Application>
+			<Name>DownloadManager</Name>
+			<Version>3.2</Version>
+			<DownloadURL>http://sourceforge.net/projects/nmtcsi/files/popdown_v3.2.zip</DownloadURL>
+			<Author>vaidyasr</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>Installs a a download manager for i.e. Rapidshare. and many others too</Description>
+			<Homepage>http://networkedmediatank.com/showthread.php?tid=10592&amp;page=1</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;popdown.tar</InstallScript>
+			<WebInterfaceURL>http://[NMT_IP]:9999/DownloadManager_web/</WebInterfaceURL>
+			<GayaInterfaceURL />
+			<Screenshots>
+				<URL>http://img3.imageshack.us/img3/2972/image01f.png</URL>
+				<URL>http://img541.imageshack.us/img541/1990/image02.png</URL>
+				<URL>http://img826.imageshack.us/img826/7666/image03.png</URL>
+				<URL>http://img21.imageshack.us/img21/8796/image04g.png</URL>
+			</Screenshots>
+			<UsageInstructions>The dependencies for Download manager are: a)lighttpd from CSI. b)utils from CSI c)Busybox from CSI </UsageInstructions>
+			<Forum />
+			<Changelog />
+		</Application>
+	</Applications>
+	<Themes />
+	<Indexes />
+	<WaitImageSets />
+	<Webservices />
 </Repository>
