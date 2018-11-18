@@ -3,14 +3,14 @@
     <DistributedRepositories>
         <Repository>
         	<Name>Vaidyasr</Name>
-        	<URL>https://raw.githubusercontent.com/vaidyasr/nmtcsi/master/RepositoryInfo_VTEN.xml</URL>
+        	<URL>http://pchportal.duckdns.org/nmtcsi/RepositoryInfo_VTEN.xml</URL>
         </Repository>
     </DistributedRepositories>
     <Applications>
         <Application>
             <Name>PchTrakt</Name>
             <Version>0.4.23</Version>
-            <DownloadURL>https://raw.githubusercontent.com/vaidyasr/nmtcsi/master/csi/csi-packages/csi_nmt_pchtrakt_0.4.23.zip</DownloadURL>
+            <DownloadURL>http://pchportal.duckdns.org/nmtcsi/csi/csi-packages/csi_nmt_pchtrakt_0.4.23.zip</DownloadURL>
             <Author>jlauwers</Author>
             <Maintainer>jlauwers</Maintainer>
             <Description>PchTrakt is a small software that enables your popcorn 200 and 300 series to communicate with trakt.tv to scrobble what you are watching.
@@ -43,7 +43,7 @@
       <Application>
          <Name>NetworkMounter</Name>
          <Version>0.5</Version>
-         <DownloadURL>https://raw.githubusercontent.com/vaidyasr/nmtcsi/master/csi/csi-packages/csi_VTEN_networkmounter.zip</DownloadURL>
+         <DownloadURL>http://pchportal.duckdns.org/nmtcsi/csi/csi-packages/csi_VTEN_networkmounter.zip</DownloadURL>
          <Author>jhmiller</Author>
          <Maintainer>jhmiller</Maintainer>
          <Description>Mount nfs/cifs network shares on the local filesystem.</Description>
