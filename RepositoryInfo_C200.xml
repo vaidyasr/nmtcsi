@@ -239,8 +239,8 @@
 		</Application>
 		<Application>
 			<Name>Transmission</Name>
-			<Version>v2.92-nmt3</Version>
-			<DownloadURL>http://pchportal.duckdns.org/nmtcsi/csi/csi-packages/transmission_c200_v2.92-nmt3.zip</DownloadURL>
+			<Version>v2.94-nmt1</Version>
+			<DownloadURL>http://pchportal.duckdns.org/nmtcsi/csi/csi-packages/transmission_all_v2.94-nmt1.zip</DownloadURL>
 			<Author>Transmission Team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Transmission torrent client build for NMT 200/300 series.</Description>
