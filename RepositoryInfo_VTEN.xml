@@ -5,7 +5,7 @@
 		<Application>
 			<Name>MiniDLNA</Name>
 			<Version>v1.1.5-nmt1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/minidlna_vten_v1.1.5-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/minidlna_vten_v1.1.5-nmt1.zip</DownloadURL>
 			<Author>jmaggard</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>ReadyMedia (formerly known as MiniDLNA) is a simple media server software, with the aim of being fully compliant with DLNA/UPnP-AV clients. It is developed by a NETGEAR employee for the ReadyNAS product line.</Description>
@@ -21,7 +21,7 @@
 		<Application>
 			<Name>MKVToolNix</Name>
 			<Version>v9.5.0-nmt1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/mkvtoolnix_vten_v9.5.0-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/mkvtoolnix_vten_v9.5.0-nmt1.zip</DownloadURL>
 			<Author>Moritz Bunkus</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Set of tools to create, alter and inspect Matroska files</Description>
@@ -37,7 +37,7 @@
 		<Application>
 			<Name>OpenSSH</Name>
 			<Version>v7.5p1-nmt1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/openssh_vten_v7.5p1-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/openssh_vten_v7.5p1-nmt1.zip</DownloadURL>
 			<Author>OpenSSH Team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>OpenSSH is a FREE version of the SSH connectivity tools that technical users of the Internet rely on.</Description>
@@ -53,7 +53,7 @@
 		<Application>
 			<Name>MPD</Name>
 			<Version>v0.19.19-nmt1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/mpd_vten_v0.19.19-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/mpd_vten_v0.19.19-nmt1.zip</DownloadURL>
 			<Author>Max Kellermann</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Music Player Daemon (MPD) is a free and open source music player server. It plays audio files, organizes playlists and maintains a music database. In order to interact with it, a separate client is needed.</Description>
@@ -69,7 +69,7 @@
 		<Application>
 			<Name>MySQL</Name>
 			<Version>v5.6.29-nmt1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/mysql_vten_v5.6.29-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/mysql_vten_v5.6.29-nmt1.zip</DownloadURL>
 			<Author>Allan Larsson, David Axmark, Michael Widenius</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>MySQL is an open-source relational database management system, it was the world's second most widely used RDBMS, and the most widely used open-source client–server model RDBMS.</Description>
@@ -85,7 +85,7 @@
 		<Application>
 			<Name>Sonarr</Name>
 			<Version>v2.0.0.3953-nmt1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/sonarr_vten_v2.0.0.3953-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/sonarr_vten_v2.0.0.3953-nmt1.zip</DownloadURL>
 			<Author>Keivan Beigi/Mark McDowall</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Smart PVR for newsgroup users.</Description>
@@ -101,7 +101,7 @@
 		<Application>
 			<Name>lighttpd</Name>
 			<Version>v1.4.41-nmt3</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/lighttpd_vten_v1.4.41-nmt3.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/lighttpd_vten_v1.4.41-nmt3.zip</DownloadURL>
 			<Author>lighttpd-team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Lighttpd is an open-source web server optimized for speed-critical environments while remaining standards-compliant, secure and flexible</Description>
@@ -117,7 +117,7 @@
 		<Application>
 			<Name>rclone</Name>
 			<Version>v1.36-nmt2</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/rclone_vten_v1.36-nmt2.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/rclone_vten_v1.36-nmt2.zip</DownloadURL>
 			<Author>Nick Craig-Wood</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Rclone is a command line program to sync/mount files and directories to and from various cloud services.</Description>
@@ -133,7 +133,7 @@
 		<Application>
 			<Name>php7</Name>
 			<Version>v7.0.10-nmt1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/php7_vten_v7.0.10-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/php7_vten_v7.0.10-nmt1.zip</DownloadURL>
 			<Author>php7-team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>PHP is a popular general-purpose scripting language that is especially suited to web development.</Description>
@@ -149,7 +149,7 @@
 		<Application>
 			<Name>NZBget</Name>
 			<Version>19.1-nmt1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/nzbget_vten_v19.1-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/nzbget_vten_v19.1-nmt1.zip</DownloadURL>
 			<Author>Andrey Prygunkov</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>NZBGet is a binary newsgrabber for nzb files. It supports automatic par-check/-repair, unpack and has a web-interface. NZBGet requires low system resources and runs great on routers, NAS-devices and media players. This package contains the latest version of NZBGet (testing branch).
@@ -176,7 +176,7 @@
 		<Application>
 			<Name>Deluge</Name>
 			<Version>v1.3.12-nmt1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/deluge_vten_v1.3.12-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/deluge_vten_v1.3.12-nmt1.zip</DownloadURL>
 			<Author>Andrew Resch, Damien Churchill, John Garland</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Deluge torrent client build for VTEN series.</Description>
@@ -194,7 +194,7 @@
 		<Application>
 			<Name>Transmission</Name>
 			<Version>v3.00-nmt1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/transmission_all_v3.00-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/transmission_all_v3.00-nmt1.zip</DownloadURL>
 			<Author>Transmission Team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Transmission torrent client build for VTEN series.</Description>
@@ -228,7 +228,7 @@
 		<Application>
 			<Name>local</Name>
 			<Version>0.3.1-nmt3</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/opkg_vten_v0.3.1-nmt3.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/opkg_vten_v0.3.1-nmt3.zip</DownloadURL>
 			<Author>opkg-devel@googlegroups.com</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Local is the CSI package name for OPKG. Opkg is a lightweight package management system. It is written in C and resembles apt/dpkg in operation. It is intended for use on embedded Linux devices and is used in this capacity in the OpenEmbedded and OpenWrt projects.</Description>
@@ -246,7 +246,7 @@
 		<Application>
 			<Name>AjaxExplorer</Name>
 			<Version>1.10.3.2-nmt1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/ajaxexplorer_v1.10.3.2-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/ajaxexplorer_v1.10.3.2-nmt1.zip</DownloadURL>
 			<Author>smsid</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Need to handle your server files as easy as OS could? Then this is your stuff! Just upload the file to your server and unzip. Works on most browser.</Description>
@@ -266,7 +266,7 @@
 		<Application>
 			<Name>FileManager</Name>
 			<Version>1.1.1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/fileman_v1.1.1_Beta.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/fileman_v1.1.1_Beta.zip</DownloadURL>
 			<Author>vaidyasr</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>A a small file manager utility which will be helpful to browse the contents of PCH including the / directory. Now the program is almost ready but still some features yet to implement.</Description>
@@ -287,7 +287,7 @@
 		<Application>
 			<Name>NMJManager</Name>
 			<Version>1.0.6</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/nmj_v1.0.6.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/nmj_v1.0.6.zip</DownloadURL>
 			<Author>vaidyasr</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>A web based editor for your NMJ Database.</Description>
@@ -307,7 +307,7 @@
 		<Application>
 			<Name>NMJManager</Name>
 			<Version>v2.0.0-nmt1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/nmjmanager_vten_v2.0.0-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/nmjmanager_vten_v2.0.0-nmt1.zip</DownloadURL>
 			<Author>vaidyasr</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>A server side script for NMJManager Android App.</Description>
@@ -323,7 +323,7 @@
 		<Application>
 			<Name>NMJManagerTablet</Name>
 			<Version>2.0.3</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/nmjmanager_v2.0.3.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/nmjmanager_v2.0.3.zip</DownloadURL>
 			<Author>vaidyasr</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>A web based viewer/editor for your NMJ Database using your Tablet.</Description>
@@ -341,7 +341,7 @@
 		<Application>
 			<Name>MKVTools</Name>
 			<Version>1.1.1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/mkvtools_v1.1.1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/mkvtools_v1.1.1.zip</DownloadURL>
 			<Author>vaidyasr</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>A web based GUI for mkvmerge similar to mkvtoolnix</Description>
@@ -360,7 +360,7 @@
 		<Application>
 			<Name>SYNK</Name>
 			<Version>1.0.0</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/synk_v1.0.0.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/synk_v1.0.0.zip</DownloadURL>
 			<Author>vaidyasr</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>The rsync GUI for your NAS/Networked Media Tank</Description>
@@ -382,7 +382,7 @@
 		<Application>
 			<Name>DownloadManager</Name>
 			<Version>3.2</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org/nmtcsi/csi/csi-packages/popdown_v3.2.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/popdown_v3.2.zip</DownloadURL>
 			<Author>vaidyasr</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Installs a a download manager for i.e. Rapidshare. and many others too</Description>
