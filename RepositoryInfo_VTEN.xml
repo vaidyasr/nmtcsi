@@ -148,8 +148,8 @@
 		</Application>
 		<Application>
 			<Name>NZBget</Name>
-			<Version>19.1-nmt1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/nzbget_vten_v19.1-nmt1.zip</DownloadURL>
+			<Version>21.0-nmt1</Version>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/nzbget_vten_v21.0-nmt1.zip</DownloadURL>
 			<Author>Andrey Prygunkov</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>NZBGet is a binary newsgrabber for nzb files. It supports automatic par-check/-repair, unpack and has a web-interface. NZBGet requires low system resources and runs great on routers, NAS-devices and media players. This package contains the latest version of NZBGet (testing branch).
