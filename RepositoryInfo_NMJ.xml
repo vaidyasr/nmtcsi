@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Repository>
+	<DistributedRepositories />
+	<Applications>
+		<Application>
+			<Name>NMJManager</Name>
+			<Version>1.0.6</Version>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/nmj_v1.0.6.zip</DownloadURL>
+			<Author>vaidyasr</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>A web based editor for your NMJ Database.</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=46208</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;nmj.tar</InstallScript>
+			<WebInterfaceURL>http://[NMT_IP]:9999/NMJManager_web/</WebInterfaceURL>
+			<GayaInterfaceURL />
+			<Screenshots>
+				<URL>http://img228.imageshack.us/img228/766/nmj.png</URL>
+				<URL>http://img155.imageshack.us/img155/5296/nmj1.png</URL>
+				<URL>http://img155.imageshack.us/img155/3076/nmj2.png</URL>
+			</Screenshots>
+			<UsageInstructions>Dependencies are imagemagick from opkg to change your poster to thumbnail.</UsageInstructions>
+			<Forum />
+			<Changelog />
+		</Application>
+		<Application>
+			<Name>NMJManager</Name>
+			<Version>v2.0.0-nmt1</Version>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/nmjmanager_vten_v2.0.0-nmt1.zip</DownloadURL>
+			<Author>vaidyasr</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>A server side script for NMJManager Android App.</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=74578</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;nmjmanager.tar</InstallScript>
+			<WebInterfaceURL>http://[NMT_IP]:5678/</WebInterfaceURL>
+			<GayaInterfaceURL />
+			<Screenshots></Screenshots>
+			<UsageInstructions></UsageInstructions>
+			<Forum />
+			<Changelog />
+		</Application>
+		<Application>
+			<Name>NMJManagerTablet</Name>
+			<Version>2.0.3</Version>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/nmjmanager_v2.0.3.zip</DownloadURL>
+			<Author>vaidyasr</Author>
+			<Maintainer>vaidyasr</Maintainer>
+			<Description>A web based viewer/editor for your NMJ Database using your Tablet.</Description>
+			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=67585</Homepage>
+			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;nmj.tar</InstallScript>
+			<WebInterfaceURL>http://www.pchvten.com/NMJManagerTablet_web/</WebInterfaceURL>
+			<GayaInterfaceURL />
+			<Screenshots>
+				<URL>http://imageshack.us/a/img826/5383/tq69.png</URL>
+			</Screenshots>
+			<UsageInstructions></UsageInstructions>
+			<Forum />
+			<Changelog />
+		</Application>
+	</Applications>
+	<Themes />
+	<Indexes />
+	<WaitImageSets />
+	<Webservices />
+</Repository>

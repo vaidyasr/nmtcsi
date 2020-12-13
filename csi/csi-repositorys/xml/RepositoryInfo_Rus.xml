@@ -36,6 +36,10 @@
         	<Name>Vaidyasr</Name>
         	<URL>http://nmtcsi.duckdns.org:81/nmtcsi/RepositoryInfo.xml</URL>
         </Repository>
+        <Repository>
+        	<Name>Vaidyasr_All</Name>
+        	<URL>http://nmtcsi.duckdns.org:81/nmtcsi/RepositoryInfo_All.xml</URL>
+        </Repository>
 		<Repository>
         	<Name>AirplayNMT</Name>
         	<URL>http://airplay-nmt.googlecode.com/files/RepositoryInfo.xml</URL>

@@ -13,6 +13,14 @@
         	<Name>Vaidyasr</Name>
         	<URL>http://nmtcsi.duckdns.org:81/nmtcsi/RepositoryInfo_C200.xml</URL>
         </Repository>
+        <Repository>
+        	<Name>Vaidyasr_All</Name>
+        	<URL>http://nmtcsi.duckdns.org:81/nmtcsi/RepositoryInfo_All.xml</URL>
+        </Repository>
+        <Repository>
+        	<Name>Vaidyasr_NMJ</Name>
+        	<URL>http://nmtcsi.duckdns.org:81/nmtcsi/RepositoryInfo_NMJ.xml</URL>
+        </Repository>
 		<Repository>
 			<Name>AirplayNMT</Name>
 			<URL>https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/airplay-nmt/RepositoryInfo.xml</URL>

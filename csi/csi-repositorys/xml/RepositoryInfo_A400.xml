@@ -5,6 +5,14 @@
         	<Name>Vaidyasr</Name>
         	<URL>http://nmtcsi.duckdns.org:81/nmtcsi/RepositoryInfo_A400.xml</URL>
         </Repository>
+        <Repository>
+        	<Name>Vaidyasr_All</Name>
+        	<URL>http://nmtcsi.duckdns.org:81/nmtcsi/RepositoryInfo_All.xml</URL>
+        </Repository>
+        <Repository>
+        	<Name>Vaidyasr_NMJ</Name>
+        	<URL>http://nmtcsi.duckdns.org:81/nmtcsi/RepositoryInfo_NMJ.xml</URL>
+        </Repository>
     </DistributedRepositories>
     <Applications>
 		<Application>

@@ -119,69 +119,6 @@
 			<Changelog></Changelog>
 		</Application>
 		<Application>
-			<Name>AjaxExplorer</Name>
-			<Version>1.10.3.2-nmt1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/ajaxexplorer_v1.10.3.2-nmt1.zip</DownloadURL>
-			<Author>smsid</Author>
-			<Maintainer>vaidyasr</Maintainer>
-			<Description>Need to handle your server files as easy as OS could? Then this is your stuff! Just upload the file to your server and unzip. Works on most browser.</Description>
-			<Homepage>http://ajaxbrowser.com/</Homepage>
-			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;ajaxexplorer.tar</InstallScript>
-			<WebInterfaceURL>http://[NMT_IP]:9999/AjaxExplorer_web/</WebInterfaceURL>
-			<GayaInterfaceURL />
-			<Screenshots>
-				<URL>http://a.fsdn.com/con/app/proj/ajax-explorer/screenshots/1.jpg</URL>
-				<URL>http://a.fsdn.com/con/app/proj/ajax-explorer/screenshots/6.jpg</URL>
-				<URL>http://a.fsdn.com/con/app/proj/ajax-explorer/screenshots/5.jpg</URL>
-			</Screenshots>
-			<UsageInstructions>Username: nmt, password: Nmt@a400</UsageInstructions>
-			<Forum />
-			<Changelog />
-		</Application>
-		<Application>
-			<Name>FileManager</Name>
-			<Version>1.1.1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/fileman_v1.1.1_Beta.zip</DownloadURL>
-			<Author>vaidyasr</Author>
-			<Maintainer>vaidyasr</Maintainer>
-			<Description>A a small file manager utility which will be helpful to browse the contents of PCH including the / directory. Now the program is almost ready but still some features yet to implement.</Description>
-			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=17409</Homepage>
-			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;fileman.tar</InstallScript>
-			<WebInterfaceURL>http://[NMT_IP]:9999/FileManager_web/</WebInterfaceURL>
-			<GayaInterfaceURL />
-			<Screenshots>
-				<URL>http://img398.imageshack.us/img398/24/image4i.th.png</URL>
-				<URL>http://img513.imageshack.us/img513/7049/image1sdc.th.png</URL>
-				<URL>http://img25.imageshack.us/img25/5044/image2nzv.th.png</URL>
-				<URL>http://img411.imageshack.us/img411/6999/image3oem.th.png</URL>
-				<URL>http://img27.imageshack.us/img27/8876/image5yvx.th.png</URL>
-			</Screenshots>
-			<UsageInstructions>Make sure you have MyIhome enabled before using the application.</UsageInstructions>
-			<Forum />
-			<Changelog />
-		</Application>
-		<Application>
-			<Name>SYNK</Name>
-			<Version>1.0.0</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/synk_v1.0.0.zip</DownloadURL>
-			<Author>vaidyasr</Author>
-			<Maintainer>vaidyasr</Maintainer>
-			<Description>The rsync GUI for your NAS/Networked Media Tank</Description>
-			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=41963</Homepage>
-			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;synk.tar</InstallScript>
-			<WebInterfaceURL>http://[NMT_IP]:9999/SYNK_web/</WebInterfaceURL>
-			<GayaInterfaceURL />
-			<Screenshots>
-				<URL>http://img715.imageshack.us/img715/7116/synk1.th.png</URL>
-				<URL>http://img684.imageshack.us/img684/1209/synk2.th.png</URL>
-				<URL>http://img141.imageshack.us/img141/6163/synk3.th.png</URL>
-				<URL>http://img833.imageshack.us/img833/6631/synk4.th.png</URL>
-			</Screenshots>
-			<UsageInstructions>Dependencies are rsync from opkg.</UsageInstructions>
-			<Forum />
-			<Changelog />
-		</Application>
-		<Application>
 			<Name>auto_mount</Name>
 			<Version>0.1</Version>
 			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/auto_mount_v0.1.zip</DownloadURL>
@@ -196,28 +133,6 @@
 			<Screenshots />
 			<UsageInstructions />
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=28210</Forum>
-			<Changelog />
-		</Application>
-		<Application>
-			<Name>DownloadManager</Name>
-			<Version>3.2</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/popdown_v3.2.zip</DownloadURL>
-			<Author>vaidyasr</Author>
-			<Maintainer>vaidyasr</Maintainer>
-			<Description>Installs a a download manager for i.e. Rapidshare. and many others too</Description>
-			<Homepage>http://networkedmediatank.com/showthread.php?tid=10592&amp;page=1</Homepage>
-			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;popdown.tar</InstallScript>
-			<WebInterfaceURL>http://[NMT_IP]:9999/DownloadManager_web/</WebInterfaceURL>
-			<GayaInterfaceURL />
-			<Screenshots>
-				<URL>http://img29.imageshack.us/img29/7866/aboutw.th.png</URL>
-				<URL>http://img97.imageshack.us/img97/2531/addz.th.png</URL>
-				<URL>http://img34.imageshack.us/img34/2908/maint.th.png</URL>
-				<URL>http://img28.imageshack.us/img28/1726/pref1.th.png</URL>
-				<URL>http://img39.imageshack.us/img39/7678/pref2.th.png</URL>
-			</Screenshots>
-			<UsageInstructions>The dependencies for Download manager are: a)lighttpd from CSI. b)utils from CSI c)Busybox from CSI </UsageInstructions>
-			<Forum />
 			<Changelog />
 		</Application>
 	</Applications>
