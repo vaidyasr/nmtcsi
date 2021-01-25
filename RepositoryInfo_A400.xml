@@ -207,8 +207,8 @@
 		</Application>
 		<Application>
 			<Name>Transmission</Name>
-			<Version>v3.00-nmt1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/transmission_all_v3.00-nmt1.zip</DownloadURL>
+			<Version>v3.00-nmt2</Version>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/transmission_all_v3.00-nmt2.zip</DownloadURL>
 			<Author>Transmission Team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Transmission torrent client build for NMT 400 series.</Description>
