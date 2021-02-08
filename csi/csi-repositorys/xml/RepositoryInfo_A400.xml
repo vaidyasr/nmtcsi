@@ -6,7 +6,7 @@
 				Vaidyasr
 			</Name>
 			<URL>
-				http://nmtcsi.duckdns.org:81/nmtcsi/RepositoryInfo_A400.xml
+				http://nmtcsi.cloudns.asia:81/nmtcsi/RepositoryInfo_A400.xml
 			</URL>
 		</Repository>
 		<Repository>
@@ -14,7 +14,7 @@
 				Vaidyasr_All
 			</Name>
 			<URL>
-				http://nmtcsi.duckdns.org:81/nmtcsi/RepositoryInfo_All.xml
+				http://nmtcsi.cloudns.asia:81/nmtcsi/RepositoryInfo_All.xml
 			</URL>
 		</Repository>
 		<Repository>
@@ -22,7 +22,7 @@
 				Vaidyasr_NMJ
 			</Name>
 			<URL>
-				http://nmtcsi.duckdns.org:81/nmtcsi/RepositoryInfo_NMJ.xml
+				http://nmtcsi.cloudns.asia:81/nmtcsi/RepositoryInfo_NMJ.xml
 			</URL>
 		</Repository>
 	</DistributedRepositories>
@@ -163,7 +163,7 @@
 				12.0-testing-r883
 			</Version>
 			<DownloadURL>
-				http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/csi_nmt_nzbget_12.0-testing-r883.zip
+				http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/csi_nmt_nzbget_12.0-testing-r883.zip
 			</DownloadURL>
 			<Author>
 				hugbug
@@ -230,7 +230,7 @@
 				11.0-stable
 			</Version>
 			<DownloadURL>
-				http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/csi_nmt_nzbget_11.0-stable.zip
+				http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/csi_nmt_nzbget_11.0-stable.zip
 			</DownloadURL>
 			<Author>
 				hugbug
@@ -297,7 +297,7 @@
 				2.2
 			</Version>
 			<DownloadURL>
-				http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/CouchpotatoV2_CSI-ALL.zip
+				http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/CouchpotatoV2_CSI-ALL.zip
 			</DownloadURL>
 			<Author>
 				RuudBurger
@@ -341,7 +341,7 @@
 				1.1
 			</Version>
 			<DownloadURL>
-				http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/sickbeard_CSI-ALL.zip
+				http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/sickbeard_CSI-ALL.zip
 			</DownloadURL>
 			<Author>
 				midgetspy
@@ -385,7 +385,7 @@
 				1.0
 			</Version>
 			<DownloadURL>
-				http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/sickrage_CSI-ALL.zip
+				http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/sickrage_CSI-ALL.zip
 			</DownloadURL>
 			<Author>
 				echel0n
@@ -428,7 +428,7 @@
 				0.4.23
 			</Version>
 			<DownloadURL>
-				http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/csi_nmt_pchtrakt_0.4.23.zip
+				http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/csi_nmt_pchtrakt_0.4.23.zip
 			</DownloadURL>
 			<Author>
 				jlauwers
@@ -481,7 +481,7 @@
 				0.5
 			</Version>
 			<DownloadURL>
-				http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/csi_nmt400_networkmounter.zip
+				http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/csi_nmt400_networkmounter.zip
 			</DownloadURL>
 			<Author>
 				jhmiller

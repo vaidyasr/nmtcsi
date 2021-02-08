@@ -5,7 +5,7 @@
 		<Application>
 			<Name>AjaxExplorer</Name>
 			<Version>1.10.3.2-nmt1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/ajaxexplorer_v1.10.3.2-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/ajaxexplorer_v1.10.3.2-nmt1.zip</DownloadURL>
 			<Author>smsid</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Need to handle your server files as easy as OS could? Then this is your stuff! Just upload the file to your server and unzip. Works on most browser.</Description>
@@ -25,7 +25,7 @@
 		<Application>
 			<Name>FileManager</Name>
 			<Version>1.1.1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/fileman_v1.1.1_Beta.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/fileman_v1.1.1_Beta.zip</DownloadURL>
 			<Author>vaidyasr</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>A a small file manager utility which will be helpful to browse the contents of PCH including the / directory. Now the program is almost ready but still some features yet to implement.</Description>
@@ -46,7 +46,7 @@
 		<Application>
 			<Name>MKVTools</Name>
 			<Version>1.1.1</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/mkvtools_v1.1.1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/mkvtools_v1.1.1.zip</DownloadURL>
 			<Author>vaidyasr</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>A web based GUI for mkvmerge similar to mkvtoolnix</Description>
@@ -65,7 +65,7 @@
 		<Application>
 			<Name>SYNK</Name>
 			<Version>1.0.0</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/synk_v1.0.0.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/synk_v1.0.0.zip</DownloadURL>
 			<Author>vaidyasr</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>The rsync GUI for your NAS/Networked Media Tank</Description>
@@ -87,7 +87,7 @@
 		<Application>
 			<Name>DownloadManager</Name>
 			<Version>3.2</Version>
-			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/popdown_v3.2.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/popdown_v3.2.zip</DownloadURL>
 			<Author>vaidyasr</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Installs a a download manager for i.e. Rapidshare. and many others too</Description>
