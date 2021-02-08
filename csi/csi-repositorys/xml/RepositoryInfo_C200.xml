@@ -11,15 +11,15 @@
         </Repository>
         <Repository>
         	<Name>Vaidyasr</Name>
-        	<URL>http://nmtcsi.unaux.com/RepositoryInfo_C200.xml</URL>
+        	<URL>http://nmtcsi.duckdns.org:81/nmtcsi/RepositoryInfo_C200.xml</URL>
         </Repository>
         <Repository>
         	<Name>Vaidyasr_All</Name>
-        	<URL>http://nmtcsi.unaux.com/RepositoryInfo_All.xml</URL>
+        	<URL>http://nmtcsi.duckdns.org:81/nmtcsi/RepositoryInfo_All.xml</URL>
         </Repository>
         <Repository>
         	<Name>Vaidyasr_NMJ</Name>
-        	<URL>http://nmtcsi.unaux.com/RepositoryInfo_NMJ.xml</URL>
+        	<URL>http://nmtcsi.duckdns.org:81/nmtcsi/RepositoryInfo_NMJ.xml</URL>
         </Repository>
 		<Repository>
 			<Name>AirplayNMT</Name>
@@ -42,7 +42,7 @@
       <Application>
          <Name>NetworkMounter</Name>
          <Version>0.5</Version>
-         <DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/csi_nmt400_networkmounter.zip</DownloadURL>
+         <DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/csi_nmt400_networkmounter.zip</DownloadURL>
          <Author>jhmiller</Author>
          <Maintainer>jhmiller</Maintainer>
          <Description>Mount nfs/cifs network shares on the local filesystem.</Description>
@@ -118,7 +118,7 @@
         <Application>
          <Name>CouchpotatoV2</Name>
          <Version>2.2</Version>
-         <DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/CouchpotatoV2_CSI-ALL.zip</DownloadURL>
+         <DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/CouchpotatoV2_CSI-ALL.zip</DownloadURL>
          <Author>RuudBurger</Author>
          <Maintainer>JHMiller</Maintainer>
          <Description>CouchPotato is an automatic NZB and torrent downloader. You can keep a "movies I want"-list and it will search for NZBs/torrents of these movies every X hours. Once a movie is found, it will send it to SABnzbd or download the .nzb or .torrent to a specified directory. 
@@ -138,7 +138,7 @@
 	  <Application>
          <Name>SickBeard</Name>
          <Version>1.1</Version>
-         <DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/sickbeard_CSI-ALL.zip</DownloadURL>
+         <DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/sickbeard_CSI-ALL.zip</DownloadURL>
          <Author>midgetspy</Author>
          <Maintainer>JHMiller</Maintainer>
          <Description>SickBeard is a PVR for newsgroup users (with limited torrent support). It watches for new episodes of your favorite shows and when they are posted it downloads them, sorts and renames them, and optionally generates metadata for them. It currently supports NZBs.org, NZBMatrix, NZBs'R'Us, Newzbin, Womble's Index, NZB.su, TVTorrents and EZRSS and retrieves show information from theTVDB.com and TVRage.com.
@@ -159,7 +159,7 @@
 	  <Application>
          <Name>SickRage</Name>
          <Version>1.0</Version>
-         <DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/sickrage_CSI-ALL.zip</DownloadURL>
+         <DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/sickrage_CSI-ALL.zip</DownloadURL>
          <Author>echel0n</Author>
          <Maintainer>JHMiller</Maintainer>
          <Description>SickBeard is a PVR for newsgroup and torrent users. It watches for new episodes of your favorite shows and when they are posted it downloads them, sorts and renames them, and optionally generates metadata for them. It currently supports NZBs.org, NZBMatrix, NZBs'R'Us, Newzbin, Womble's Index, NZB.su, TVTorrents and EZRSS and retrieves show information from theTVDB.com and TVRage.com.
@@ -179,7 +179,7 @@
         <Application>
          <Name>NZBget</Name>
             <Version>12.0-testing-r883</Version>
-			<DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/csi_nmt_nzbget_12.0-testing-r883.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/csi_nmt_nzbget_12.0-testing-r883.zip</DownloadURL>
             <Author>hugbug</Author>
             <Maintainer>JHMiller</Maintainer>
          <Description>NZBGet is a binary newsgrabber for nzb files. It supports automatic par-check/-repair, unpack and has a web-interface. NZBGet requires low system resources and runs great on routers, NAS-devices and media players. This package contains the latest version of NZBGet (testing branch).</Description>
@@ -205,7 +205,7 @@
         <Application>
          <Name>NZBget</Name>
             <Version>11.0-stable</Version>
-			<DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/csi_nmt_nzbget_11.0-stable.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/csi_nmt_nzbget_11.0-stable.zip</DownloadURL>
             <Author>hugbug</Author>
             <Maintainer>JHMiller</Maintainer>
          <Description>NZBGet is a binary newsgrabber for nzb files. It supports automatic par-check/-repair, unpack and has a web-interface. NZBGet requires low system resources and runs great on routers, NAS-devices and media players. This package contains the latest version of NZBGet (testing branch).</Description>
@@ -249,7 +249,7 @@
         <Application>
             <Name>PchTrakt</Name>
             <Version>0.4.23</Version>
-            <DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/csi_nmt_pchtrakt_0.4.23.zip</DownloadURL>
+            <DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/csi_nmt_pchtrakt_0.4.23.zip</DownloadURL>
             <Author>jlauwers</Author>
             <Maintainer>jlauwers</Maintainer>
             <Description>PchTrakt is a small software that enables your popcorn 200 and 300 series to communicate with trakt.tv to scrobble what you are watching.

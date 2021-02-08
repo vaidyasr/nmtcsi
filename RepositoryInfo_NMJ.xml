@@ -5,7 +5,7 @@
 		<Application>
 			<Name>NMJManager</Name>
 			<Version>1.0.6</Version>
-			<DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/nmj_v1.0.6.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/nmj_v1.0.6.zip</DownloadURL>
 			<Author>vaidyasr</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>A web based editor for your NMJ Database.</Description>
@@ -25,7 +25,7 @@
 		<Application>
 			<Name>NMJManager</Name>
 			<Version>v2.0.0-nmt1</Version>
-			<DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/nmjmanager_vten_v2.0.0-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/nmjmanager_vten_v2.0.0-nmt1.zip</DownloadURL>
 			<Author>vaidyasr</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>A server side script for NMJManager Android App.</Description>
@@ -41,7 +41,7 @@
 		<Application>
 			<Name>NMJManagerTablet</Name>
 			<Version>2.0.3</Version>
-			<DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/nmjmanager_v2.0.3.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/nmjmanager_v2.0.3.zip</DownloadURL>
 			<Author>vaidyasr</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>A web based viewer/editor for your NMJ Database using your Tablet.</Description>

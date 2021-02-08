@@ -5,7 +5,7 @@
 		<Application>
 			<Name>webui-aria2</Name>
 			<Version>v1.0.0-nmt1</Version>
-			<DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/aria2_v1.0.0-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/aria2_v1.0.0-nmt1.zip</DownloadURL>
 			<Author>ziahamza</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Web Interface for aria2 Download Manager</Description>
@@ -21,7 +21,7 @@
 		<Application>
 			<Name>pyLoad</Name>
 			<Version>v0.4.9-nmt1</Version>
-			<DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/pyload_v0.4.9-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/pyload_v0.4.9-nmt1.zip</DownloadURL>
 			<Author>pyLoad Team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>pyLoad is a fast, lightweight and full featured download manager for many One-Click-Hoster, container formats like DLC, video sites or just plain http/ftp links.</Description>
@@ -37,7 +37,7 @@
 		<Application>
 			<Name>OpenSSH</Name>
 			<Version>v7.4p1-nmt1</Version>
-			<DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/openssh_v7.4p1-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/openssh_v7.4p1-nmt1.zip</DownloadURL>
 			<Author>OpenSSH Team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>OpenSSH is a FREE version of the SSH connectivity tools that technical users of the Internet rely on.</Description>
@@ -53,7 +53,7 @@
 		<Application>
 			<Name>MediaTomb</Name>
 			<Version>latest-nmt1</Version>
-			<DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/mediatomb_latest-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/mediatomb_latest-nmt1.zip</DownloadURL>
 			<Author>Gena Batyan, Sergey Bostandzhyan and Leonhard Wimmer</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>MediaTomb is an open source (GPL) UPnP MediaServer with a nice web user interface, it allows you to stream your digital media through your home network and listen to/watch it on a variety of UPnP compatible devices.</Description>
@@ -69,7 +69,7 @@
 		<Application>
 			<Name>MiniDLNA</Name>
 			<Version>v1.1.5-nmt1</Version>
-			<DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/minidlna_a110_v1.1.5-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/minidlna_a110_v1.1.5-nmt1.zip</DownloadURL>
 			<Author>jmaggard</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>ReadyMedia (formerly known as MiniDLNA) is a simple media server software, with the aim of being fully compliant with DLNA/UPnP-AV clients. It is developed by a NETGEAR employee for the ReadyNAS product line.</Description>
@@ -85,7 +85,7 @@
 		<Application>
 			<Name>Transmission</Name>
 			<Version>v2.92-nmt1</Version>
-			<DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/transmission_a110_v2.92-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/transmission_a110_v2.92-nmt1.zip</DownloadURL>
 			<Author>Transmission Team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Transmission torrent client build for NMT 100 series.</Description>
@@ -103,7 +103,7 @@
 		<Application>
 			<Name>local</Name>
 			<Version>0.3.1-nmt2</Version>
-			<DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/opkg_a110_v0.3.1-nmt2.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/opkg_a110_v0.3.1-nmt2.zip</DownloadURL>
 			<Author>opkg-devel@googlegroups.com</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Local is the CSI package name for OPKG. Opkg is a lightweight package management system. It is written in C and resembles apt/dpkg in operation. It is intended for use on embedded Linux devices and is used in this capacity in the OpenEmbedded and OpenWrt projects.</Description>
@@ -121,7 +121,7 @@
 		<Application>
 			<Name>auto_mount</Name>
 			<Version>0.1</Version>
-			<DownloadURL>http://nmtcsi.unaux.com/csi/csi-packages/auto_mount_v0.1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.duckdns.org:81/nmtcsi/csi/csi-packages/auto_mount_v0.1.zip</DownloadURL>
 			<Author>vaidyasr</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>I have developed a small utility to auto mount USB drives (default will be USB_DRIVE_?-1 with the user defined
