@@ -4,7 +4,7 @@
 	<Applications>
 		<Application>
 			<Name>AjaxExplorer</Name>
-			<Version>1.10.3.2-nmt1</Version>
+			<Version>v1.10.3.2-nmt1</Version>
 			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/ajaxexplorer_v1.10.3.2-nmt1.zip</DownloadURL>
 			<Author>smsid</Author>
 			<Maintainer>vaidyasr</Maintainer>

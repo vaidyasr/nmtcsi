@@ -36,8 +36,8 @@
 		</Application>
 		<Application>
 			<Name>OpenSSH</Name>
-			<Version>v7.5p1-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/openssh_vten_v7.5p1-nmt1.zip</DownloadURL>
+			<Version>v8.4p1-nmt1</Version>
+			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/openssh_vten_v8.4p1-nmt1.zip</DownloadURL>
 			<Author>OpenSSH Team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>OpenSSH is a FREE version of the SSH connectivity tools that technical users of the Internet rely on.</Description>
@@ -48,7 +48,7 @@
 			<Screenshots></Screenshots>
 			<UsageInstructions>After installing, do a ssh from your favourite client (puTTY) and the password for root is 1234. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=44411</Forum>
-			<Changelog>Released v7.5p1-nmt1</Changelog>
+			<Changelog>https://www.openssh.com/releasenotes.html</Changelog>
 		</Application>
 		<Application>
 			<Name>MPD</Name>
@@ -99,12 +99,12 @@
 			<Changelog>Released v2.0.0.3953</Changelog>
 		</Application>
 		<Application>
-			<Name>lighttpd</Name>
-			<Version>v1.4.41-nmt3</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/lighttpd_vten_v1.4.41-nmt3.zip</DownloadURL>
+			<Name>lighttpd-nmt</Name>
+			<Version>v1.4.59-nmt1</Version>
+			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/lighttpd-nmt_vten_v1.4.59-nmt1.zip</DownloadURL>
 			<Author>lighttpd-team</Author>
 			<Maintainer>vaidyasr</Maintainer>
-			<Description>Lighttpd is an open-source web server optimized for speed-critical environments while remaining standards-compliant, secure and flexible</Description>
+			<Description>Lighttpd is an open-source web server optimized for speed-critical environments while remaining standards-compliant, secure and flexible. This package will install under /nmt/apps directory.</Description>
 			<Homepage>http://www.lighttpd.net/</Homepage>
 			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;webserver.tar</InstallScript>
 			<WebInterfaceURL></WebInterfaceURL>
