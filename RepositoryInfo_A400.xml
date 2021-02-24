@@ -51,12 +51,12 @@
 			<Changelog></Changelog>
 		</Application>
 		<Application>
-			<Name>lighttpd</Name>
-			<Version>v1.4.41-nmt2</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/lighttpd_a400_v1.4.41-nmt2.zip</DownloadURL>
+			<Name>lighttpd-nmt</Name>
+			<Version>v1.4.59-nmt1</Version>
+			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/lighttpd-nmt_a400_v1.4.59-nmt1.zip</DownloadURL>
 			<Author>lighttpd-team</Author>
 			<Maintainer>vaidyasr</Maintainer>
-			<Description>Lighttpd is an open-source web server optimized for speed-critical environments while remaining standards-compliant, secure and flexible</Description>
+			<Description>Lighttpd is an open-source web server optimized for speed-critical environments while remaining standards-compliant, secure and flexible. This package will install under /nmt/apps directory.</Description>
 			<Homepage>http://www.lighttpd.net/</Homepage>
 			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;webserver.tar</InstallScript>
 			<WebInterfaceURL></WebInterfaceURL>
