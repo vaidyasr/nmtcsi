@@ -191,8 +191,8 @@
 		</Application>
 		<Application>
 			<Name>OpenSSH</Name>
-			<Version>v7.4p1-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/openssh_v7.4p1-nmt1.zip</DownloadURL>
+			<Version>v8.4p1-nmt1</Version>
+			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/openssh_v8.4p1-nmt1.zip</DownloadURL>
 			<Author>OpenSSH Team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>OpenSSH is a FREE version of the SSH connectivity tools that technical users of the Internet rely on.</Description>
@@ -203,7 +203,7 @@
 			<Screenshots></Screenshots>
 			<UsageInstructions>After installing, do a ssh from your favourite client (puTTY) and the password for root is 1234. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=44411</Forum>
-			<Changelog>Released v6.2p2-1</Changelog>
+			<Changelog>https://www.openssh.com/releasenotes.html</Changelog>
 		</Application>
 		<Application>
 			<Name>MediaTomb</Name>

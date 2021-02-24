@@ -133,15 +133,13 @@
 #   Version 1.21
 #       vaidyasr: Check the filesystem.
 #
+#   Version 1.22
+#       vaidyasr: Repo fix for appinit.cgi and version_online.
+#
 #-------------------------------------------------------------
 #   Legal: published under GPL v3
 #   http://www.gnu.org/licenses/gpl-3.0.txt
 ##############################################################
-
-
-
-
-
 
 #--------------- VARIABLES ---------------
 
@@ -150,9 +148,9 @@ APPS_MINIMAL_APPINFO_VERSION="1"
 APPINIT_NAME="Application Initializer"
 APPINIT_FILENAME="appinit.cgi"
 APPINIT_PROFILE="$APPS_FOLDER/AppInit"
-APPINIT_VERSION="1.21"
-APPINIT_VERSION_URL="http://54.75.246.28/~csi/csi-downloads/appinit_version"
-APPINIT_UPGRADE_URL="http://54.75.246.28/~csi/csi-downloads/appinit.cgi"
+APPINIT_VERSION="1.22"
+APPINIT_VERSION_URL="http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-downloads/appinit_version"
+APPINIT_UPGRADE_URL="http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-downloads/appinit.cgi"
 APPINIT_AUTOSTART_STATE="/tmp/appinit_state"
 APPINIT_WEBSERVER_DISABLED="/tmp/appinit_webserver_disabled"
 CRONTAB_RELOAD="0"
@@ -180,14 +178,11 @@ HTTPDCONF_LOCATION="$NMTAPPS_LOCATION/server/php5server"
 CRONTAB_LOCATION="$NMTAPPS_LOCATION/etc/root.cron"
 UNRAR="$NMTAPPS_LOCATION/bin/unrar"
 
-
-
-
 #--------------- APPINIT HELPER METHODS ---------------
 
 appinit_auto_upgrade()
 {
-    echo -n "Checking for new version: "
+    #echo -n "Checking for new version: "
     if [ ! -d "$APPINIT_PROFILE" ]; then
         mkdir -p "$APPINIT_PROFILE"
         chown nmt.nmt "$APPINIT_PROFILE"
@@ -198,16 +193,18 @@ appinit_auto_upgrade()
     if [ -f "$APPINIT_PROFILE/version_online" ] && [ -n "$VERSION_ONLINE" ] && [ ${#VERSION_ONLINE} -lt 15 ] ; then
         if [ "$APPINIT_VERSION" != "`cat "$APPINIT_PROFILE/version_online"`" ]; then
             wget -q -O "$APPINIT_PROFILE/$APPINIT_FILENAME" $APPINIT_UPGRADE_URL
-            echo "Upgraded"
+            #echo "Upgraded"
             chmod a+x "$APPINIT_PROFILE/$APPINIT_FILENAME"
             chown nmt.nmt "$APPINIT_PROFILE/$APPINIT_FILENAME"
             eval "$APPINIT_PROFILE/$APPINIT_FILENAME \"$1\" \"$2\""
             exit 0
         else
-           echo "up to date"
+           echo
+           #echo "up to date"
         fi
     else
-        echo "Can't check for new version"
+        #echo "Can't check for new version"
+        echo
     fi
 }
 
@@ -232,18 +229,18 @@ appinit_autostart_remove()
 appinit_bootstart_add()
 {
     if ! grep -q "$APPINIT_PROFILE/$APPINIT_FILENAME" "$STARTSCRIP_LOCATION"; then
-        echo -n "Configuring system to start all applications on boot: "
+        #echo -n "Configuring system to start all applications on boot: "
         sed -i "\!^case .*in!i $APPINIT_PROFILE/$APPINIT_FILENAME \"\$1\"" "$STARTSCRIP_LOCATION"
-        echo "Done"
+        #echo "Done"
     fi
 }
 
 appinit_bootstart_remove()
 {
     if grep -q "$APPINIT_PROFILE/$APPINIT_FILENAME" "$STARTSCRIP_LOCATION"; then
-        echo -n "Configuring system not to start all applications on boot: "
+        #echo -n "Configuring system not to start all applications on boot: "
         sed -i "\!^$APPINIT_PROFILE/$APPINIT_FILENAME!d" "$STARTSCRIP_LOCATION"
-        echo "Done"
+        #echo "Done"
     fi
 }
 
@@ -321,7 +318,7 @@ appinit_webserver_enable()
 
     TEST="`cat $HTTPDCONF_LOCATION/httpd.conf | grep "$APPINIT_PROFILE/httpd.conf"`"
     if [ -z "$TEST" ]; then
-        echo -n "Enabling webserver: "
+        #echo -n "Enabling webserver: "
         escaped="`echo "$APPINIT_PROFILE" | sed "s/\\//\\\\\\\\\\//g"`"
         cp $HTTPDCONF_LOCATION/httpd.conf $HTTPDCONF_LOCATION/httpd_old.conf
         cat $HTTPDCONF_LOCATION/httpd_old.conf | \
@@ -330,7 +327,7 @@ appinit_webserver_enable()
         rm $HTTPDCONF_LOCATION/httpd_old.conf
  
         su -pm -c "cd $NMTAPPS_LOCATION/server && ./apachectl_php5 restart" nobody >/dev/null 2>&1
-        echo "Done"
+        #echo "Done"
     fi
     
     #webserver is not running
@@ -345,13 +342,13 @@ appinit_webserver_disable()
     
     TEST="`cat $HTTPDCONF_LOCATION/httpd.conf | grep "$APPINIT_PROFILE/httpd.conf"`"
     if [ -n "$TEST" ]; then
-       echo -n "Disabling webserver: "
+       #echo -n "Disabling webserver: "
        
        TEMP="`cat $HTTPDCONF_LOCATION/httpd.conf | grep -v "$APPINIT_PROFILE/httpd.conf"`"
        echo "$TEMP" > $HTTPDCONF_LOCATION/httpd.conf
     
        su -pm -c "cd $NMTAPPS_LOCATION/server && ./apachectl_php5 restart" nobody >/dev/null 2>&1
-       echo "Done"
+       #echo "Done"
     fi
 }
 
@@ -1020,11 +1017,6 @@ process()
     fi
 }
 
-
-
-
-
-
 #--------------- MAIN ---------------
 
 printf "Access-Control-Allow-Origin: *\r\n"
@@ -1056,8 +1048,8 @@ case "$command" in
     echo "    [application name] is not optional for some of these commands"
     echo "    this will control already installed applications."
     echo
-    echo "# $APPINIT_FILENAME install {filename} (tar or rar)"
-    echo "    This will install a application from tar or rar file."
+    echo "# $APPINIT_FILENAME install {filename/URL} (tar or rar)"
+    echo "    This will install a application from tar or rar file or from URL."
     echo
     echo "# $APPINIT_FILENAME {webserver_enable|webserver_disable}"
     echo "    Will disable or enable the webserver used for applications"
@@ -1071,7 +1063,6 @@ case "$command" in
     ;;
 esac
 
-
 # check number of parameters
 if [ -z "$parameter" ]; then
     case "$command" in
@@ -1081,7 +1072,6 @@ if [ -z "$parameter" ]; then
         ;;
     esac
 fi
-
 
 if [ "$process" == "1" ]; then
     #in case of a special install command do not process via normal route
@@ -1120,7 +1110,6 @@ if [ "$CRONTAB_RELOAD" == "1" ]; then
     crontab "$CRONTAB_LOCATION"
     CRONTAB_RELOAD="0"
 fi
-
 
 #send EOF
 echo
