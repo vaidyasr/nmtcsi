@@ -16,7 +16,7 @@
 			<Screenshots></Screenshots>
 			<UsageInstructions>After installing, install any mpd client to connect. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=38371</Forum>
-			<Changelog>Released v0.18.5</Changelog>
+			<Changelog>https://raw.githubusercontent.com/MusicPlayerDaemon/MPD/v0.20.12/NEWS</Changelog>
 		</Application>
 		<Application>
 			<Name>MKVToolNix</Name>
@@ -32,7 +32,7 @@
 			<Screenshots></Screenshots>
 			<UsageInstructions>After installing, use telnet to use the program. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for the interest </UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=73892</Forum>
-			<Changelog></Changelog>
+			<Changelog>https://mkvtoolnix.download/doc/NEWS.md</Changelog>
 		</Application>
 		<Application>
 			<Name>webui-aria2</Name>
@@ -64,7 +64,7 @@
 			<Screenshots></Screenshots>
 			<UsageInstructions>After installing, you can browse your existing apps. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=32596</Forum>
-			<Changelog></Changelog>
+			<Changelog>https://www.lighttpd.net/2021/2/2/1.4.59/</Changelog>
 		</Application>
 		<Application>
 			<Name>NZBget</Name>
@@ -107,7 +107,7 @@
 			<Screenshots></Screenshots>
 			<UsageInstructions>This will replace your existing php5 in /nmt/apps/server directory and it is fully revertable. Use uninstall from CSI to revert back. After installing, you can browse your existing apps. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=72187</Forum>
-			<Changelog></Changelog>
+			<Changelog>https://www.php.net/ChangeLog-5.php</Changelog>
 		</Application>
 		<Application>
 			<Name>owncloud</Name>
@@ -155,7 +155,7 @@
 			<Screenshots>http://pyload.org/_media/webif.png</Screenshots>
 			<UsageInstructions>After installing, browse to the web page with login as nmt and password as 1234. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=57418</Forum>
-			<Changelog>Released v0.4.9</Changelog>
+			<Changelog>https://github.com/pyload/pyload/releases/tag/v0.4.9</Changelog>
 		</Application>
 		<Application>
 			<Name>OpenSSH</Name>
@@ -187,7 +187,7 @@
 			<Screenshots></Screenshots>
 			<UsageInstructions>After installing, browse the media from your TV. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=47811</Forum>
-			<Changelog>Released v0.12.1.</Changelog>
+			<Changelog>https://github.com/marcin1j/mediatomb/blob/master/ChangeLog</Changelog>
 		</Application>
 		<Application>
 			<Name>MiniDLNA</Name>
@@ -255,7 +255,7 @@
 			</Screenshots>
 			<UsageInstructions />
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=64124</Forum>
-			<Changelog></Changelog>
+			<Changelog>https://git.yoctoproject.org/cgit/cgit.cgi/opkg/log/?h=v0.3.1</Changelog>
 		</Application>
 		<Application>
 			<Name>OVJNavigator</Name>
@@ -289,7 +289,7 @@
 			<Screenshots></Screenshots>
 			<UsageInstructions>This app requires additional configuration to mount the cloud drives. Refer the forum for more details. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=74321</Forum>
-			<Changelog></Changelog>
+			<Changelog>https://rclone.org/changelog/</Changelog>
 		</Application>
 	</Applications>
 	<Themes />

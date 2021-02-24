@@ -32,7 +32,7 @@
 			<Screenshots></Screenshots>
 			<UsageInstructions>After installing, use telnet to use the program. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for the interest </UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=73892</Forum>
-			<Changelog></Changelog>
+			<Changelog>https://mkvtoolnix.download/doc/NEWS.md</Changelog>
 		</Application>
 		<Application>
 			<Name>OpenSSH</Name>
@@ -64,7 +64,7 @@
 			<Screenshots></Screenshots>
 			<UsageInstructions>After installing, install any mpd client to connect. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=38371</Forum>
-			<Changelog>Released v0.19.19</Changelog>
+			<Changelog>https://raw.githubusercontent.com/MusicPlayerDaemon/MPD/v0.19.19/NEWS</Changelog>
 		</Application>
 		<Application>
 			<Name>MySQL</Name>
@@ -80,7 +80,7 @@
 			<Screenshots></Screenshots>
 			<UsageInstructions>If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest</UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=49867</Forum>
-			<Changelog>Released v5.6.29</Changelog>
+			<Changelog>https://dev.mysql.com/doc/relnotes/mysql/5.6/en/news-5-6-29.html</Changelog>
 		</Application>
 		<Application>
 			<Name>Sonarr</Name>
@@ -112,7 +112,7 @@
 			<Screenshots></Screenshots>
 			<UsageInstructions>After installing, you can browse your existing apps. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=32596</Forum>
-			<Changelog></Changelog>
+			<Changelog>https://www.lighttpd.net/2021/2/2/1.4.59/</Changelog>
 		</Application>
 		<Application>
 			<Name>rclone</Name>
@@ -128,7 +128,7 @@
 			<Screenshots></Screenshots>
 			<UsageInstructions>This app requires additional configuration to mount the cloud drives. Refer the forum for more details. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=74321</Forum>
-			<Changelog></Changelog>
+			<Changelog>https://rclone.org/changelog/</Changelog>
 		</Application>
 		<Application>
 			<Name>php7</Name>
@@ -144,7 +144,7 @@
 			<Screenshots></Screenshots>
 			<UsageInstructions>This will add php7 in /nmt/apps/server directory and it is fully revertable. Use uninstall from CSI to revert back. After installing, you can browse your existing apps. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=72187</Forum>
-			<Changelog></Changelog>
+			<Changelog>https://www.php.net/ChangeLog-7.php#PHP_7_0</Changelog>
 		</Application>
 		<Application>
 			<Name>NZBget</Name>
@@ -189,7 +189,7 @@
 			</Screenshots>
 			<UsageInstructions>After installing, use the password deluge. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=73322</Forum>
-			<Changelog> Released v1.3.12</Changelog>
+			<Changelog>https://dev.deluge-torrent.org/wiki/ChangeLog</Changelog>
 		</Application>
 		<Application>
 			<Name>Transmission</Name>
@@ -241,7 +241,7 @@
 			</Screenshots>
 			<UsageInstructions />
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=64124</Forum>
-			<Changelog></Changelog>
+			<Changelog>https://git.yoctoproject.org/cgit/cgit.cgi/opkg/log/?h=v0.3.1</Changelog>
 		</Application>
 	</Applications>
 	<Themes />
