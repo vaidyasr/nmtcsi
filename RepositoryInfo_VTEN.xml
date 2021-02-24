@@ -207,7 +207,7 @@
 			</Screenshots>
 			<UsageInstructions>After installing, manage transmission from PC web interface, or NMT web service. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=68993</Forum>
-			<Changelog> Upgraded to Transmission 3.00.  </Changelog>
+			<Changelog><https://github.com/transmission/transmission/releases/Changelog>
 		</Application>
 		<Application>
 			<Name>debian</Name>
