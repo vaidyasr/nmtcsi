@@ -192,7 +192,7 @@
 		<Application>
 			<Name>OpenSSH</Name>
 			<Version>v8.4p1-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/openssh_v8.4p1-nmt1.zip</DownloadURL>
+			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/openssh_c200_v8.4p1-nmt1.zip</DownloadURL>
 			<Author>OpenSSH Team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>OpenSSH is a FREE version of the SSH connectivity tools that technical users of the Internet rely on.</Description>
