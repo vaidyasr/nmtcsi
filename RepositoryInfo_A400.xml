@@ -4,19 +4,19 @@
 	<Applications>
 		<Application>
 			<Name>MPD</Name>
-			<Version>v0.20.12-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/mpd_a400_v0.20.12-nmt1.zip</DownloadURL>
+			<Version>v0.20.23-nmt1</Version>
+			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/mpd_a400_v0.20.23-nmt1.zip</DownloadURL>
 			<Author>Max Kellermann</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Music Player Daemon (MPD) is a free and open source music player server. It plays audio files, organizes playlists and maintains a music database. In order to interact with it, a separate client is needed.</Description>
-			<Homepage>http://www.networkedmediatank.com/showthread.php?tid=38371</Homepage>
+			<Homepage>https://www.musicpd.org/</Homepage>
 			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;mpd.tar</InstallScript>
 			<WebInterfaceURL></WebInterfaceURL>
 			<GayaInterfaceURL></GayaInterfaceURL>
 			<Screenshots></Screenshots>
-			<UsageInstructions>After installing, install any mpd client to connect. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
+			<UsageInstructions>After installing, install any mpd client to connect. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for the interest</UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=38371</Forum>
-			<Changelog>https://raw.githubusercontent.com/MusicPlayerDaemon/MPD/v0.20.12/NEWS</Changelog>
+			<Changelog>https://raw.githubusercontent.com/MusicPlayerDaemon/MPD/v0.20.23/NEWS</Changelog>
 		</Application>
 		<Application>
 			<Name>MKVToolNix</Name>
