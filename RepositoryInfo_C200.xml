@@ -238,9 +238,9 @@
                         <Changelog>https://sourceforge.net/projects/minidlna/files/minidlna/1.3.0/</Changelog>
                 </Application>
 		<Application>
-			<Name>Transmission</Name>
-			<Version>v3.00-nmt2</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/transmission_all_v3.00-nmt2.zip</DownloadURL>
+			<Name>Transmission-nmt</Name>
+			<Version>v3.00-nmt1</Version>
+			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/transmission-nmt_c200_v3.00-nmt1.zip</DownloadURL>
 			<Author>Transmission Team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Transmission torrent client build for NMT 200/300 series.</Description>
@@ -251,7 +251,7 @@
 			<Screenshots>
 				<URL>http://members.tele2.nl/ger.teunis/transmission/img/WebUI.jpg</URL>
 			</Screenshots>
-			<UsageInstructions>After installing, manage transmission from PC web interface, or NMT web service. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
+                        <UsageInstructions>After installing, manage transmission from PC web interface, or NMT web service. If you need support, ask in the forum. If you find a bug, submit it in the forum. This package will install under /nmt/apps direcory by replacing system default. Thanks for the interest</UsageInstructions>
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=68993</Forum>
 			<Changelog>https://github.com/transmission/transmission/releases</Changelog>
 		</Application>

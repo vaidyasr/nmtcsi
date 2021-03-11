@@ -2,6 +2,22 @@
 <Repository>
 	<DistributedRepositories />
 	<Applications>
+                <Application>
+                        <Name>php8-nmt</Name>
+                        <Version>v8.0.2-nmt1</Version>
+                        <DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/php8-nmt_a400_v8.0.2-nmt1.zip</DownloadURL>
+                        <Author>php8-team</Author>
+                        <Maintainer>vaidyasr</Maintainer>
+                        <Description>PHP is a popular general-purpose scripting language that is especially suited to web development. This package replaces the php5 installed in /nmt/apps directory.</Description>
+                        <Homepage>http://php.net/</Homepage>
+                        <InstallScript>Apps/AppInit/appinit.cgi?install&amp;php.tar</InstallScript>
+                        <WebInterfaceURL></WebInterfaceURL>
+                        <GayaInterfaceURL></GayaInterfaceURL>
+                        <Screenshots></Screenshots>
+                        <UsageInstructions>This will add php8 in /nmt/apps/server directory and it is fully revertable. Use uninstall from CSI to revert back. After installing, you can browse your existing apps. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for the interest</UsageInstructions>
+                        <Forum>http://www.networkedmediatank.com/showthread.php?tid=75474</Forum>
+                        <Changelog>https://www.php.net/ChangeLog-8.php#8.0.2</Changelog>
+                </Application>
 		<Application>
 			<Name>MPD</Name>
 			<Version>v0.20.23-nmt1</Version>
