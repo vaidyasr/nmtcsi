@@ -50,22 +50,22 @@
 			<Forum>http://www.networkedmediatank.com/showthread.php?tid=72187</Forum>
 			<Changelog>https://www.php.net/ChangeLog-7.php#PHP_7_0</Changelog>
 		</Application>
-		<Application>
-			<Name>lighttpd</Name>
-			<Version>v1.4.41-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/lighttpd_c200_v1.4.41-nmt1.zip</DownloadURL>
-			<Author>lighttpd-team</Author>
-			<Maintainer>vaidyasr</Maintainer>
-			<Description>Lighttpd is an open-source web server optimized for speed-critical environments while remaining standards-compliant, secure and flexible</Description>
-			<Homepage>http://www.lighttpd.net/</Homepage>
-			<InstallScript>Apps/AppInit/appinit.cgi?install&amp;webserver.tar</InstallScript>
-			<WebInterfaceURL></WebInterfaceURL>
-			<GayaInterfaceURL></GayaInterfaceURL>
-			<Screenshots></Screenshots>
-			<UsageInstructions>After installing, you can browse your existing apps. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
-			<Forum>http://www.networkedmediatank.com/showthread.php?tid=32596</Forum>
-			<Changelog>https://www.lighttpd.net/2021/2/2/1.4.59/</Changelog>
-		</Application>
+                <Application>
+                        <Name>lighttpd-nmt</Name>
+                        <Version>v1.4.59-nmt1</Version>
+                        <DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/lighttpd-nmt_c200_v1.4.59-nmt1.zip</DownloadURL>
+                        <Author>lighttpd-team</Author>
+                        <Maintainer>vaidyasr</Maintainer>
+                        <Description>Lighttpd is an open-source web server optimized for speed-critical environments while remaining standards-compliant, secure and flexible. This package will install under /nmt/apps directory.</Description>
+                        <Homepage>http://www.lighttpd.net/</Homepage>
+                        <InstallScript>Apps/AppInit/appinit.cgi?install&amp;webserver.tar</InstallScript>
+                        <WebInterfaceURL></WebInterfaceURL>
+                        <GayaInterfaceURL></GayaInterfaceURL>
+                        <Screenshots></Screenshots>
+                        <UsageInstructions>After installing, you can browse your existing apps. If you need support, ask in the forum. If you find a bug, submit it in the forum. Thanks for interest </UsageInstructions>
+                        <Forum>http://www.networkedmediatank.com/showthread.php?tid=32596</Forum>
+                        <Changelog>https://www.lighttpd.net/2021/2/2/1.4.59/</Changelog>
+                </Application>
 		<Application>
 			<Name>NZBget</Name>
 			<Version>19.1-nmt1</Version>
