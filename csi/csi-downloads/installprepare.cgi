@@ -204,7 +204,7 @@ add_webservice()
 rollout_appinit()
 {
     if [ ! -f "/share/Apps/AppInit/appinit.cgi" ]; then
-        wget -T 3 -q -O /share/appinit.cgi http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-downloads/appinit.cgi >/dev/null 2>/dev/null
+        wget -T 3 -q -O /share/appinit.cgi http://nmt.myhass.us/csi/csi-downloads/appinit.cgi >/dev/null 2>/dev/null
         
         if [ -f "/share/appinit.cgi" ]; then
             chmod a+x /share/appinit.cgi

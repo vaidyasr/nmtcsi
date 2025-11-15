@@ -34,11 +34,11 @@
         </Repository>
         <Repository>
         	<Name>Vaidyasr</Name>
-        	<URL>http://nmtcsi.cloudns.asia:81/nmtcsi/RepositoryInfo.xml</URL>
+        	<URL>https://nmt.myhass.us/RepositoryInfo.xml</URL>
         </Repository>
         <Repository>
         	<Name>Vaidyasr_All</Name>
-        	<URL>http://nmtcsi.cloudns.asia:81/nmtcsi/RepositoryInfo_All.xml</URL>
+        	<URL>https://nmt.myhass.us/RepositoryInfo_All.xml</URL>
         </Repository>
 		<Repository>
         	<Name>AirplayNMT</Name>
@@ -140,7 +140,7 @@ contab.sh</UsageInstructions>
         <Application>
          <Name>CouchpotatoV2</Name>
          <Version>2.2</Version>
-         <DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/CouchpotatoV2_CSI-ALL.zip</DownloadURL>
+         <DownloadURL>https://nmt.myhass.us/csi/csi-packages/CouchpotatoV2_CSI-ALL.zip</DownloadURL>
          <Author>RuudBurger</Author>
          <Maintainer>JHMiller</Maintainer>
          <Description>CouchPotato is an automatic NZB and torrent downloader. You can keep a "movies I want"-list and it will search for NZBs/torrents of these movies every X hours. Once a movie is found, it will send it to SABnzbd or download the .nzb or .torrent to a specified directory. 
@@ -160,7 +160,7 @@ contab.sh</UsageInstructions>
 	  <Application>
          <Name>SickBeard</Name>
          <Version>1.1</Version>
-         <DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/sickbeard_CSI-ALL.zip</DownloadURL>
+         <DownloadURL>https://nmt.myhass.us/csi/csi-packages/sickbeard_CSI-ALL.zip</DownloadURL>
          <Author>midgetspy</Author>
          <Maintainer>JHMiller</Maintainer>
          <Description>SickBeard is a PVR for newsgroup users (with limited torrent support). It watches for new episodes of your favorite shows and when they are posted it downloads them, sorts and renames them, and optionally generates metadata for them. It currently supports NZBs.org, NZBMatrix, NZBs'R'Us, Newzbin, Womble's Index, NZB.su, TVTorrents and EZRSS and retrieves show information from theTVDB.com and TVRage.com.
@@ -181,7 +181,7 @@ contab.sh</UsageInstructions>
 	  <Application>
          <Name>SickRage</Name>
          <Version>1.0</Version>
-         <DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/sickrage_CSI-ALL.zip</DownloadURL>
+         <DownloadURL>https://nmt.myhass.us/csi/csi-packages/sickrage_CSI-ALL.zip</DownloadURL>
          <Author>echel0n</Author>
          <Maintainer>JHMiller</Maintainer>
          <Description>SickBeard is a PVR for newsgroup and torrent users. It watches for new episodes of your favorite shows and when they are posted it downloads them, sorts and renames them, and optionally generates metadata for them. It currently supports NZBs.org, NZBMatrix, NZBs'R'Us, Newzbin, Womble's Index, NZB.su, TVTorrents and EZRSS and retrieves show information from theTVDB.com and TVRage.com.
@@ -217,7 +217,7 @@ contab.sh</UsageInstructions>
         <Application>
             <Name>NZBget</Name>
             <Version>12.0-testing-r883</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/csi_nmt_nzbget_12.0-testing-r883.zip</DownloadURL>
+			<DownloadURL>https://nmt.myhass.us/csi/csi-packages/csi_nmt_nzbget_12.0-testing-r883.zip</DownloadURL>
             <Author>hugbug</Author>
             <Maintainer>JHMiller</Maintainer>
             <Description>Тестовый релиз! Устанавливает последнюю тестовую версию NZBget, оптимизированную для NZB. Также содержит оптимизированный UNRAR 3.80 и PAP2.</Description>
@@ -243,7 +243,7 @@ contab.sh</UsageInstructions>
         <Application>
             <Name>NZBget</Name>
             <Version>11.0-stable</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/csi_nmt_nzbget_11.0-stable.zip</DownloadURL>
+			<DownloadURL>https://nmt.myhass.us/csi/csi-packages/csi_nmt_nzbget_11.0-stable.zip</DownloadURL>
             <Author>hugbug</Author>
             <Maintainer>JHMiller</Maintainer>
             <Description>Тестовый релиз! Устанавливает последнюю тестовую версию NZBget, оптимизированную для NZB. Также содержит оптимизированный UNRAR 3.80 и PAP2.</Description>

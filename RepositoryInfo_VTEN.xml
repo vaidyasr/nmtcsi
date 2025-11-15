@@ -5,7 +5,7 @@
 		<Application>
 			<Name>MiniDLNA</Name>
 			<Version>v1.3.0-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/minidlna_vten_v1.3.0-nmt1.zip</DownloadURL>
+			<DownloadURL>https://nmt.myhass.us/csi/csi-packages/minidlna_vten_v1.3.0-nmt1.zip</DownloadURL>
 			<Author>jmaggard</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>ReadyMedia (formerly known as MiniDLNA) is a simple media server software, with the aim of being fully compliant with DLNA/UPnP-AV clients. It is developed by a NETGEAR employee for the ReadyNAS product line.</Description>
@@ -21,7 +21,7 @@
 		<Application>
 			<Name>MKVToolNix</Name>
 			<Version>v9.5.0-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/mkvtoolnix_vten_v9.5.0-nmt1.zip</DownloadURL>
+			<DownloadURL>https://nmt.myhass.us/csi/csi-packages/mkvtoolnix_vten_v9.5.0-nmt1.zip</DownloadURL>
 			<Author>Moritz Bunkus</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Set of tools to create, alter and inspect Matroska files</Description>
@@ -37,7 +37,7 @@
 		<Application>
 			<Name>OpenSSH</Name>
 			<Version>v8.4p1-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/openssh_vten_v8.4p1-nmt1.zip</DownloadURL>
+			<DownloadURL>https://nmt.myhass.us/csi/csi-packages/openssh_vten_v8.4p1-nmt1.zip</DownloadURL>
 			<Author>OpenSSH Team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>OpenSSH is a FREE version of the SSH connectivity tools that technical users of the Internet rely on.</Description>
@@ -53,7 +53,7 @@
 		<Application>
 			<Name>MPD</Name>
 			<Version>v0.20.23-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/mpd_vten_v0.20.23-nmt1.zip</DownloadURL>
+			<DownloadURL>https://nmt.myhass.us/csi/csi-packages/mpd_vten_v0.20.23-nmt1.zip</DownloadURL>
 			<Author>Max Kellermann</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Music Player Daemon (MPD) is a free and open source music player server. It plays audio files, organizes playlists and maintains a music database. In order to interact with it, a separate client is needed.</Description>
@@ -69,7 +69,7 @@
 		<Application>
 			<Name>MySQL</Name>
 			<Version>v5.6.29-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/mysql_vten_v5.6.29-nmt1.zip</DownloadURL>
+			<DownloadURL>https://nmt.myhass.us/csi/csi-packages/mysql_vten_v5.6.29-nmt1.zip</DownloadURL>
 			<Author>Allan Larsson, David Axmark, Michael Widenius</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>MySQL is an open-source relational database management system, it was the world's second most widely used RDBMS, and the most widely used open-source client–server model RDBMS.</Description>
@@ -85,7 +85,7 @@
 		<Application>
 			<Name>Sonarr</Name>
 			<Version>v2.0.0.3953-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/sonarr_vten_v2.0.0.3953-nmt1.zip</DownloadURL>
+			<DownloadURL>https://nmt.myhass.us/csi/csi-packages/sonarr_vten_v2.0.0.3953-nmt1.zip</DownloadURL>
 			<Author>Keivan Beigi/Mark McDowall</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Smart PVR for newsgroup users.</Description>
@@ -101,7 +101,7 @@
 		<Application>
 			<Name>lighttpd-nmt</Name>
 			<Version>v1.4.59-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/lighttpd-nmt_vten_v1.4.59-nmt1.zip</DownloadURL>
+			<DownloadURL>https://nmt.myhass.us/csi/csi-packages/lighttpd-nmt_vten_v1.4.59-nmt1.zip</DownloadURL>
 			<Author>lighttpd-team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Lighttpd is an open-source web server optimized for speed-critical environments while remaining standards-compliant, secure and flexible. This package will install under /nmt/apps directory.</Description>
@@ -117,7 +117,7 @@
 		<Application>
 			<Name>rclone</Name>
 			<Version>v1.36-nmt2</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/rclone_vten_v1.36-nmt2.zip</DownloadURL>
+			<DownloadURL>https://nmt.myhass.us/csi/csi-packages/rclone_vten_v1.36-nmt2.zip</DownloadURL>
 			<Author>Nick Craig-Wood</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Rclone is a command line program to sync/mount files and directories to and from various cloud services.</Description>
@@ -133,7 +133,7 @@
 		<Application>
 			<Name>php7-nmt</Name>
 			<Version>v7.4.15-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/php7-nmt_vten_v7.4.15-nmt1.zip</DownloadURL>
+			<DownloadURL>https://nmt.myhass.us/csi/csi-packages/php7-nmt_vten_v7.4.15-nmt1.zip</DownloadURL>
 			<Author>php7-team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>PHP is a popular general-purpose scripting language that is especially suited to web development. This package replaces the php5 installed in /nmt/apps directory.</Description>
@@ -149,7 +149,7 @@
 		<Application>
 			<Name>php8-nmt</Name>
 			<Version>v8.0.2-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/php8-nmt_vten_v8.0.2-nmt1.zip</DownloadURL>
+			<DownloadURL>https://nmt.myhass.us/csi/csi-packages/php8-nmt_vten_v8.0.2-nmt1.zip</DownloadURL>
 			<Author>php8-team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>PHP is a popular general-purpose scripting language that is especially suited to web development. This package replaces the php5 installed in /nmt/apps directory.</Description>
@@ -165,7 +165,7 @@
 		<Application>
 			<Name>NZBget</Name>
 			<Version>21.1-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/nzbget_vten_v21.1-nmt1.zip</DownloadURL>
+			<DownloadURL>https://nmt.myhass.us/csi/csi-packages/nzbget_vten_v21.1-nmt1.zip</DownloadURL>
 			<Author>Andrey Prygunkov</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>NZBGet is a binary newsgrabber for nzb files. It supports automatic par-check/-repair, unpack and has a web-interface. NZBGet requires low system resources and runs great on routers, NAS-devices and media players. This package contains the latest version of NZBGet (testing branch).
@@ -192,7 +192,7 @@
 		<Application>
 			<Name>Deluge</Name>
 			<Version>v1.3.12-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/deluge_vten_v1.3.12-nmt1.zip</DownloadURL>
+			<DownloadURL>https://nmt.myhass.us/csi/csi-packages/deluge_vten_v1.3.12-nmt1.zip</DownloadURL>
 			<Author>Andrew Resch, Damien Churchill, John Garland</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Deluge torrent client build for VTEN series.</Description>
@@ -210,7 +210,7 @@
 		<Application>
 			<Name>Transmission-nmt</Name>
 			<Version>v3.00-nmt1</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/transmission-nmt_vten_v3.00-nmt1.zip</DownloadURL>
+			<DownloadURL>https://nmt.myhass.us/csi/csi-packages/transmission-nmt_vten_v3.00-nmt1.zip</DownloadURL>
 			<Author>Transmission Team</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Transmission torrent client build for VTEN series.</Description>
@@ -244,7 +244,7 @@
 		<Application>
 			<Name>local</Name>
 			<Version>0.3.1-nmt3</Version>
-			<DownloadURL>http://nmtcsi.cloudns.asia:81/nmtcsi/csi/csi-packages/opkg_vten_v0.3.1-nmt3.zip</DownloadURL>
+			<DownloadURL>https://nmt.myhass.us/csi/csi-packages/opkg_vten_v0.3.1-nmt3.zip</DownloadURL>
 			<Author>opkg-devel@googlegroups.com</Author>
 			<Maintainer>vaidyasr</Maintainer>
 			<Description>Local is the CSI package name for OPKG. Opkg is a lightweight package management system. It is written in C and resembles apt/dpkg in operation. It is intended for use on embedded Linux devices and is used in this capacity in the OpenEmbedded and OpenWrt projects.</Description>
